@@ -1,0 +1,72 @@
+
+- (void) initializeNotesView
+{
+if (_setResource != YES)
+{// JSON File...
+
+NSError *error;
+NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"Notes" ofType:@"json"];
+NSString *jsonString = [[NSString alloc] initWithContentsOfFile:jsonPath encoding:NSUTF8StringEncoding error:NULL];
+NSLog(@"jsonString:%@",jsonString);
+mainArray = [NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding] options:kNilOptions error:&error];
+
+[_tableView reloadData];
+[[LUUtilities removeActivityIndicator] removeFromSuperview];
+
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
+
+
+
+//        LUOperation *sharedSingleton = [LUOperation getSharedInstance];
+//        sharedSingleton.LUDelegateCall=self;
+//        [sharedSingleton notesList:_URL_link];
+}
+else  if (_setTeacherResource==YES)
+{
+
+LUOperation *sharedSingleton = [LUOperation getSharedInstance];
+sharedSingleton.LUDelegateCall=self;
+[sharedSingleton teacherResourceLibraryList:Teacher_resource_library];
+
+
+
+
+_addResourceButton.hidden = NO;
+
+
+/*
+
+NSLog(@"%@",_resourceSubjectList);
+
+mainArray =_resourceSubjectList;
+[_tableView reloadData];
+*/
+[[LUUtilities removeActivityIndicator] removeFromSuperview];
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
+
+
+
+
+
+}else if (_setTeacherDrawing == YES)
+{
+mainArray = _teacherDrawingList;
+[_tableView reloadData];
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
+[[LUUtilities removeActivityIndicator] removeFromSuperview];
+}
+else
+{
+NSLog(@"%@",_resourceSubjectList);
+
+mainArray =_resourceSubjectList;
+[_tableView reloadData];
+[[LUUtilities removeActivityIndicator] removeFromSuperview];
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSelectItemFromCollectionView:) name:@"didSelectItemFromCollectionView" object:nil];
+
+//        NSString *dataUrl  = [NSString stringWithFormat:@"%@&subject=%@",ResourceLibrary_link,_resourceSubjectName];
+//        LUOperation *sharedSingleton = [LUOperation getSharedInstance];
+//        sharedSingleton.LUDelegateCall=self;
+//        [sharedSingleton resourceLibraryDetailList:dataUrl];
+}
+}

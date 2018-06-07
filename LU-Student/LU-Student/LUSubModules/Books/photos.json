@@ -1,0 +1,38 @@
+[
+ {
+    "name": "Chemistry",
+    "picture": "chemistry.jpg",
+ "url": "http://setumbrella.com/sample_images/Test.pdf",
+ 
+ },
+ {
+    "name": "Computer",
+    "picture": "computer.jpg",
+ "url": "http://setumbrella.com/sample_images/Test.pdf",
+ 
+ },
+ {
+    "name": "Class 3",
+    "picture": "english.jpg",
+ "url": "http://setumbrella.com/sample_images/Test.pdf",
+ 
+ },
+ {
+    "name": "Greek",
+    "picture": "greek.jpg",
+ "url": "http://setumbrella.com/sample_images/Test.pdf",
+ 
+ } ,
+ {
+ "name": "History",
+ "picture": "history.jpg",
+ "url": "http://setumbrella.com/sample_images/Test.pdf",
+ 
+ },
+ {
+ "name": "Science",
+ "picture": "science-round-corners.jpg",
+ "url": "http://setumbrella.com/sample_images/Test.pdf",
+ 
+ }
+]
