@@ -1,0 +1,2337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5C0E0B20C663B800F8B5E0 /* LUStudentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E0A20C663B800F8B5E0 /* LUStudentAppDelegate.m */; };
+		1E5C0E0E20C663B800F8B5E0 /* LUStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E0D20C663B800F8B5E0 /* LUStudentViewController.m */; };
+		1E5C0E1120C663B800F8B5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E0F20C663B800F8B5E0 /* Main.storyboard */; };
+		1E5C0E1320C663BA00F8B5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E1220C663BA00F8B5E0 /* Assets.xcassets */; };
+		1E5C0E1620C663BA00F8B5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E1420C663BA00F8B5E0 /* LaunchScreen.storyboard */; };
+		1E5C0E1920C663BA00F8B5E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E1820C663BA00F8B5E0 /* main.m */; };
+		1E5C0E2320C663BA00F8B5E0 /* LUStudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E2220C663BA00F8B5E0 /* LUStudentTests.m */; };
+		1E5C0E2E20C663BA00F8B5E0 /* LUStudentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E2D20C663BA00F8B5E0 /* LUStudentUITests.m */; };
+		1E5C0E6620C690CE00F8B5E0 /* LUStudentProfileSubjectTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5420C690CD00F8B5E0 /* LUStudentProfileSubjectTableCell.m */; };
+		1E5C0E6720C690CE00F8B5E0 /* LUStudentProfileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5520C690CD00F8B5E0 /* LUStudentProfileCollectionViewCell.m */; };
+		1E5C0E6820C690CE00F8B5E0 /* LUStudentProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5620C690CD00F8B5E0 /* LUStudentProfileViewController.m */; };
+		1E5C0E6920C690CE00F8B5E0 /* StudentProfileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5A20C690CD00F8B5E0 /* StudentProfileIcon.png */; };
+		1E5C0E6A20C690CE00F8B5E0 /* NameIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5B20C690CD00F8B5E0 /* NameIcon.png */; };
+		1E5C0E6B20C690CE00F8B5E0 /* PhoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5C20C690CD00F8B5E0 /* PhoneIcon.png */; };
+		1E5C0E6C20C690CE00F8B5E0 /* GirlIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5D20C690CD00F8B5E0 /* GirlIcon.png */; };
+		1E5C0E6D20C690CE00F8B5E0 /* BoyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5E20C690CD00F8B5E0 /* BoyIcon.png */; };
+		1E5C0E6E20C690CE00F8B5E0 /* DateofBirthIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E5F20C690CD00F8B5E0 /* DateofBirthIcon.png */; };
+		1E5C0E6F20C690CE00F8B5E0 /* AddressIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E6020C690CD00F8B5E0 /* AddressIcon.png */; };
+		1E5C0E7020C690CE00F8B5E0 /* ClassIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E6120C690CD00F8B5E0 /* ClassIcon.png */; };
+		1E5C0E7120C690CE00F8B5E0 /* ProfileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E6220C690CD00F8B5E0 /* ProfileIcon.png */; };
+		1E5C0E7220C690CE00F8B5E0 /* GradeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E6320C690CD00F8B5E0 /* GradeIcon.png */; };
+		1E5C0E7320C690CE00F8B5E0 /* EmailIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E6420C690CD00F8B5E0 /* EmailIcon.png */; };
+		1E5C0EC720C6913900F8B5E0 /* YRCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7420C6913900F8B5E0 /* YRCoverFlowLayout.m */; };
+		1E5C0EC820C6913900F8B5E0 /* Reader-Email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7720C6913900F8B5E0 /* Reader-Email@2x.png */; };
+		1E5C0EC920C6913900F8B5E0 /* Reader-Button-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7820C6913900F8B5E0 /* Reader-Button-N@3x.png */; };
+		1E5C0ECA20C6913900F8B5E0 /* Reader-Print.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7920C6913900F8B5E0 /* Reader-Print.png */; };
+		1E5C0ECB20C6913900F8B5E0 /* Reader-Button-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7A20C6913900F8B5E0 /* Reader-Button-N@2x.png */; };
+		1E5C0ECC20C6913900F8B5E0 /* Reader-Email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7B20C6913900F8B5E0 /* Reader-Email@3x.png */; };
+		1E5C0ECD20C6913900F8B5E0 /* Reader-Mark-Y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7C20C6913900F8B5E0 /* Reader-Mark-Y@2x.png */; };
+		1E5C0ECE20C6913900F8B5E0 /* Reader-Button-H@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7D20C6913900F8B5E0 /* Reader-Button-H@3x.png */; };
+		1E5C0ECF20C6913900F8B5E0 /* Reader-Button-H.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7E20C6913900F8B5E0 /* Reader-Button-H.png */; };
+		1E5C0ED020C6913900F8B5E0 /* chemistry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E7F20C6913900F8B5E0 /* chemistry.jpg */; };
+		1E5C0ED120C6913900F8B5E0 /* Reader-Button-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8020C6913900F8B5E0 /* Reader-Button-N.png */; };
+		1E5C0ED220C6913900F8B5E0 /* Reader-Button-H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8120C6913900F8B5E0 /* Reader-Button-H@2x.png */; };
+		1E5C0ED320C6913900F8B5E0 /* Reader-Mark-Y@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8220C6913900F8B5E0 /* Reader-Mark-Y@3x.png */; };
+		1E5C0ED420C6913900F8B5E0 /* Reader-Print@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8320C6913900F8B5E0 /* Reader-Print@2x.png */; };
+		1E5C0ED520C6913900F8B5E0 /* history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8420C6913900F8B5E0 /* history.jpg */; };
+		1E5C0ED620C6913900F8B5E0 /* Reader-Thumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8520C6913900F8B5E0 /* Reader-Thumbs.png */; };
+		1E5C0ED720C6913900F8B5E0 /* Reader-Thumbs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8620C6913900F8B5E0 /* Reader-Thumbs@2x.png */; };
+		1E5C0ED820C6913900F8B5E0 /* Reader-Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8720C6913900F8B5E0 /* Reader-Email.png */; };
+		1E5C0ED920C6913900F8B5E0 /* Reader-Thumbs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8820C6913900F8B5E0 /* Reader-Thumbs@3x.png */; };
+		1E5C0EDA20C6913900F8B5E0 /* greek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8920C6913900F8B5E0 /* greek.jpg */; };
+		1E5C0EDB20C6913900F8B5E0 /* Reader-Print@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8A20C6913900F8B5E0 /* Reader-Print@3x.png */; };
+		1E5C0EDC20C6913900F8B5E0 /* science-round-corners.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8B20C6913900F8B5E0 /* science-round-corners.jpg */; };
+		1E5C0EDD20C6913900F8B5E0 /* computer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8C20C6913900F8B5E0 /* computer.jpg */; };
+		1E5C0EDE20C6913900F8B5E0 /* Reader-Mark-Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8D20C6913900F8B5E0 /* Reader-Mark-Y.png */; };
+		1E5C0EDF20C6913900F8B5E0 /* Reader-Mark-N.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8E20C6913900F8B5E0 /* Reader-Mark-N.png */; };
+		1E5C0EE020C6913900F8B5E0 /* Reader-Export@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E8F20C6913900F8B5E0 /* Reader-Export@3x.png */; };
+		1E5C0EE120C6913900F8B5E0 /* Reader-Mark-N@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9020C6913900F8B5E0 /* Reader-Mark-N@3x.png */; };
+		1E5C0EE220C6913900F8B5E0 /* Reader-Export.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9120C6913900F8B5E0 /* Reader-Export.png */; };
+		1E5C0EE320C6913900F8B5E0 /* Reader-Mark-N@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9220C6913900F8B5E0 /* Reader-Mark-N@2x.png */; };
+		1E5C0EE420C6913900F8B5E0 /* Reader-Export@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9320C6913900F8B5E0 /* Reader-Export@2x.png */; };
+		1E5C0EE520C6913900F8B5E0 /* english.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9420C6913900F8B5E0 /* english.jpg */; };
+		1E5C0EE620C6913900F8B5E0 /* LUStudentTextBookModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9520C6913900F8B5E0 /* LUStudentTextBookModuleViewController.m */; };
+		1E5C0EE720C6913900F8B5E0 /* LUCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9820C6913900F8B5E0 /* LUCoverFlowLayout.m */; };
+		1E5C0EE820C6913900F8B5E0 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9920C6913900F8B5E0 /* photos.json */; };
+		1E5C0EE920C6913900F8B5E0 /* LUStudentTextBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9A20C6913900F8B5E0 /* LUStudentTextBookViewController.m */; };
+		1E5C0EEA20C6913900F8B5E0 /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9D20C6913900F8B5E0 /* ReaderContentTile.m */; };
+		1E5C0EEB20C6913900F8B5E0 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0E9F20C6913900F8B5E0 /* UIXToolbarView.m */; };
+		1E5C0EEC20C6913900F8B5E0 /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EA320C6913900F8B5E0 /* ReaderThumbQueue.m */; };
+		1E5C0EED20C6913900F8B5E0 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EA420C6913900F8B5E0 /* ReaderContentPage.m */; };
+		1E5C0EEE20C6913900F8B5E0 /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EA620C6913900F8B5E0 /* ReaderThumbRender.m */; };
+		1E5C0EEF20C6913900F8B5E0 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EA820C6913900F8B5E0 /* CGPDFDocument.m */; };
+		1E5C0EF020C6913900F8B5E0 /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EA920C6913900F8B5E0 /* ReaderContentView.m */; };
+		1E5C0EF120C6913900F8B5E0 /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EAA20C6913900F8B5E0 /* ReaderViewController.m */; };
+		1E5C0EF220C6913900F8B5E0 /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EAB20C6913900F8B5E0 /* ReaderThumbFetch.m */; };
+		1E5C0EF320C6913900F8B5E0 /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EAE20C6913900F8B5E0 /* ReaderThumbView.m */; };
+		1E5C0EF420C6913900F8B5E0 /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EAF20C6913900F8B5E0 /* ReaderMainToolbar.m */; };
+		1E5C0EF520C6913900F8B5E0 /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB020C6913900F8B5E0 /* ReaderDocument.m */; };
+		1E5C0EF620C6913900F8B5E0 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB120C6913900F8B5E0 /* photos.json */; };
+		1E5C0EF720C6913900F8B5E0 /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB220C6913900F8B5E0 /* ReaderDocumentOutline.m */; };
+		1E5C0EF820C6913900F8B5E0 /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB320C6913900F8B5E0 /* ReaderThumbCache.m */; };
+		1E5C0EF920C6913900F8B5E0 /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB520C6913900F8B5E0 /* ReaderThumbsView.m */; };
+		1E5C0EFA20C6913900F8B5E0 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB720C6913900F8B5E0 /* ThumbsViewController.m */; };
+		1E5C0EFB20C6913900F8B5E0 /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EB920C6913900F8B5E0 /* ReaderThumbRequest.m */; };
+		1E5C0EFC20C6913900F8B5E0 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EBB20C6913900F8B5E0 /* ReaderConstants.m */; };
+		1E5C0EFD20C6913900F8B5E0 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EC420C6913900F8B5E0 /* ThumbsMainToolbar.m */; };
+		1E5C0EFE20C6913900F8B5E0 /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0EC520C6913900F8B5E0 /* ReaderMainPagebar.m */; };
+		1E5C0EFF20C6913900F8B5E0 /* Reader.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0EC620C6913900F8B5E0 /* Reader.pdf */; };
+		1E5C0F0720C6917400F8B5E0 /* LUStudentResourceLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F0020C6917400F8B5E0 /* LUStudentResourceLibraryViewController.m */; };
+		1E5C0F0820C6917400F8B5E0 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F0220C6917400F8B5E0 /* YTPlayerView-iframe-player.html */; };
+		1E5C0F0920C6917400F8B5E0 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F0420C6917400F8B5E0 /* YTPlayerView.m */; };
+		1E5C0F0A20C6917400F8B5E0 /* LUVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F0620C6917400F8B5E0 /* LUVideoPlayerViewController.m */; };
+		1E5C0F1A20C691A200F8B5E0 /* LUNotesMainDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F0D20C691A200F8B5E0 /* LUNotesMainDataManager.m */; };
+		1E5C0F1B20C691A200F8B5E0 /* LUNotesDrawingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F1020C691A200F8B5E0 /* LUNotesDrawingTool.m */; };
+		1E5C0F1C20C691A200F8B5E0 /* LUNotesDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F1120C691A200F8B5E0 /* LUNotesDrawingView.m */; };
+		1E5C0F1D20C691A200F8B5E0 /* LUWriteNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F1420C691A200F8B5E0 /* LUWriteNotesViewController.m */; };
+		1E5C0F1E20C691A200F8B5E0 /* ColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F1520C691A200F8B5E0 /* ColorWheel.png */; };
+		1E5C0F1F20C691A200F8B5E0 /* LUPageType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F1920C691A200F8B5E0 /* LUPageType.m */; };
+		1E5C0F3A20C691C900F8B5E0 /* redo-Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2220C691C900F8B5E0 /* redo-Gray.png */; };
+		1E5C0F3B20C691C900F8B5E0 /* arrowright.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2320C691C900F8B5E0 /* arrowright.png */; };
+		1E5C0F3C20C691C900F8B5E0 /* submittedStatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2420C691C900F8B5E0 /* submittedStatus.png */; };
+		1E5C0F3D20C691C900F8B5E0 /* rejected-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2520C691C900F8B5E0 /* rejected-gray.png */; };
+		1E5C0F3E20C691C900F8B5E0 /* DRAW.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2620C691C900F8B5E0 /* DRAW.png */; };
+		1E5C0F3F20C691C900F8B5E0 /* approved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2720C691C900F8B5E0 /* approved@2x.png */; };
+		1E5C0F4020C691C900F8B5E0 /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2820C691C900F8B5E0 /* submit.png */; };
+		1E5C0F4120C691C900F8B5E0 /* rejected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2920C691C900F8B5E0 /* rejected@2x.png */; };
+		1E5C0F4220C691C900F8B5E0 /* redoStatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2A20C691C900F8B5E0 /* redoStatus.png */; };
+		1E5C0F4320C691C900F8B5E0 /* approved-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2B20C691C900F8B5E0 /* approved-gray.png */; };
+		1E5C0F4420C691C900F8B5E0 /* ATTACH.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2C20C691C900F8B5E0 /* ATTACH.png */; };
+		1E5C0F4520C691C900F8B5E0 /* approvedStatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2D20C691C900F8B5E0 /* approvedStatus.png */; };
+		1E5C0F4620C691C900F8B5E0 /* submitted-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2E20C691C900F8B5E0 /* submitted-gray.png */; };
+		1E5C0F4720C691C900F8B5E0 /* GREEN-Submit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F2F20C691C900F8B5E0 /* GREEN-Submit.png */; };
+		1E5C0F4820C691C900F8B5E0 /* submitted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F3020C691C900F8B5E0 /* submitted@2x.png */; };
+		1E5C0F4920C691C900F8B5E0 /* rejectedStatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F3120C691C900F8B5E0 /* rejectedStatus.png */; };
+		1E5C0F4A20C691C900F8B5E0 /* WRITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F3220C691C900F8B5E0 /* WRITE.png */; };
+		1E5C0F4B20C691C900F8B5E0 /* LUAssignmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F3520C691C900F8B5E0 /* LUAssignmentCell.m */; };
+		1E5C0F4C20C691C900F8B5E0 /* LUStudentAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F3620C691C900F8B5E0 /* LUStudentAssignmentViewController.m */; };
+		1E5C0F4D20C691C900F8B5E0 /* LUAssignmentSubmitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F3820C691C900F8B5E0 /* LUAssignmentSubmitCell.m */; };
+		1E5C0F6120C6921900F8B5E0 /* LUTimeTableCalendarEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5120C6921900F8B5E0 /* LUTimeTableCalendarEventCell.m */; };
+		1E5C0F6220C6921900F8B5E0 /* LUTimeTableDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5620C6921900F8B5E0 /* LUTimeTableDetailViewController.xib */; };
+		1E5C0F6320C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5720C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.m */; };
+		1E5C0F6420C6921900F8B5E0 /* LUStudentTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5920C6921900F8B5E0 /* LUStudentTimeTableViewController.m */; };
+		1E5C0F6520C6921900F8B5E0 /* LUTodayTimeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5A20C6921900F8B5E0 /* LUTodayTimeTableViewController.m */; };
+		1E5C0F6620C6921900F8B5E0 /* LUTimeTableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5B20C6921900F8B5E0 /* LUTimeTableDetailViewController.m */; };
+		1E5C0F6720C6921900F8B5E0 /* LUTimeTableCalendarDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5C20C6921900F8B5E0 /* LUTimeTableCalendarDataSource.m */; };
+		1E5C0F6820C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5D20C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.m */; };
+		1E5C0F6920C6921900F8B5E0 /* LUHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F5F20C6921900F8B5E0 /* LUHeaderView.m */; };
+		1E5C0F6A20C6921900F8B5E0 /* LUHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F6020C6921900F8B5E0 /* LUHeaderView.xib */; };
+		1E5C0F8920C6924800F8B5E0 /* LUOnlineExamDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F6D20C6924800F8B5E0 /* LUOnlineExamDateFormatter.m */; };
+		1E5C0F8A20C6924800F8B5E0 /* LUMatchTheFollowingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7020C6924800F8B5E0 /* LUMatchTheFollowingViewController.m */; };
+		1E5C0F8B20C6924800F8B5E0 /* LUOnlineExamQuesionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7220C6924800F8B5E0 /* LUOnlineExamQuesionsController.m */; };
+		1E5C0F8C20C6924800F8B5E0 /* LUStudentOnlineExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7320C6924800F8B5E0 /* LUStudentOnlineExamViewController.m */; };
+		1E5C0F8D20C6924800F8B5E0 /* LUOptionalQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7420C6924800F8B5E0 /* LUOptionalQuestionsViewController.m */; };
+		1E5C0F8E20C6924800F8B5E0 /* LUMatchQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7620C6924800F8B5E0 /* LUMatchQuestionCell.m */; };
+		1E5C0F8F20C6924800F8B5E0 /* LUFillInTheBlankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7720C6924800F8B5E0 /* LUFillInTheBlankViewController.m */; };
+		1E5C0F9020C6924800F8B5E0 /* optionalquestionPList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7A20C6924800F8B5E0 /* optionalquestionPList.plist */; };
+		1E5C0F9120C6924800F8B5E0 /* LUExamDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F7E20C6924800F8B5E0 /* LUExamDataManager.m */; };
+		1E5C0F9220C6924800F8B5E0 /* examWrite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8020C6924800F8B5E0 /* examWrite.png */; };
+		1E5C0F9320C6924800F8B5E0 /* green-write.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8120C6924800F8B5E0 /* green-write.png */; };
+		1E5C0F9420C6924800F8B5E0 /* radio-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8220C6924800F8B5E0 /* radio-on.png */; };
+		1E5C0F9520C6924800F8B5E0 /* Complete-exam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8320C6924800F8B5E0 /* Complete-exam.png */; };
+		1E5C0F9620C6924800F8B5E0 /* view-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8420C6924800F8B5E0 /* view-edit.png */; };
+		1E5C0F9720C6924800F8B5E0 /* radio-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8520C6924800F8B5E0 /* radio-off.png */; };
+		1E5C0F9820C6924800F8B5E0 /* LUOptionalQuestionDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F8720C6924800F8B5E0 /* LUOptionalQuestionDataManager.m */; };
+		1E5C0FCB20C6926B00F8B5E0 /* CGStretchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0F9C20C6926A00F8B5E0 /* CGStretchView.m */; };
+		1E5C0FCC20C6926B00F8B5E0 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0F9F20C6926A00F8B5E0 /* gray.png */; };
+		1E5C0FCD20C6926B00F8B5E0 /* Vector8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA020C6926A00F8B5E0 /* Vector8.png */; };
+		1E5C0FCE20C6926B00F8B5E0 /* Vector9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA120C6926A00F8B5E0 /* Vector9.png */; };
+		1E5C0FCF20C6926B00F8B5E0 /* sq.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA220C6926A00F8B5E0 /* sq.png */; };
+		1E5C0FD020C6926B00F8B5E0 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA320C6926A00F8B5E0 /* circle.png */; };
+		1E5C0FD120C6926B00F8B5E0 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA420C6926A00F8B5E0 /* rect.png */; };
+		1E5C0FD220C6926B00F8B5E0 /* Vector10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA520C6926A00F8B5E0 /* Vector10.png */; };
+		1E5C0FD320C6926B00F8B5E0 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA620C6926A00F8B5E0 /* diamond.png */; };
+		1E5C0FD420C6926B00F8B5E0 /* Vector4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA720C6926A00F8B5E0 /* Vector4.png */; };
+		1E5C0FD520C6926B00F8B5E0 /* Vector5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA820C6926A00F8B5E0 /* Vector5.png */; };
+		1E5C0FD620C6926B00F8B5E0 /* Vector7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FA920C6926A00F8B5E0 /* Vector7.png */; };
+		1E5C0FD720C6926B00F8B5E0 /* Vector6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FAA20C6926A00F8B5E0 /* Vector6.png */; };
+		1E5C0FD820C6926B00F8B5E0 /* Vector2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FAB20C6926A00F8B5E0 /* Vector2.png */; };
+		1E5C0FD920C6926B00F8B5E0 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FAC20C6926A00F8B5E0 /* square.png */; };
+		1E5C0FDA20C6926B00F8B5E0 /* Vector3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FAD20C6926A00F8B5E0 /* Vector3.png */; };
+		1E5C0FDB20C6926B00F8B5E0 /* Vector1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FAE20C6926A00F8B5E0 /* Vector1.png */; };
+		1E5C0FDC20C6926B00F8B5E0 /* LUDrawingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FAF20C6926A00F8B5E0 /* LUDrawingCell.m */; };
+		1E5C0FDD20C6926B00F8B5E0 /* LUDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FB020C6926A00F8B5E0 /* LUDrawingViewController.m */; };
+		1E5C0FDE20C6926B00F8B5E0 /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FB420C6926A00F8B5E0 /* LinkedListStack.m */; };
+		1E5C0FDF20C6926B00F8B5E0 /* UIImage+FloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FB520C6926A00F8B5E0 /* UIImage+FloodFill.m */; };
+		1E5C0FE020C6926B00F8B5E0 /* LUStudentMainDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FB720C6926A00F8B5E0 /* LUStudentMainDrawingViewController.m */; };
+		1E5C0FE120C6926B00F8B5E0 /* UIImage+ColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FBA20C6926B00F8B5E0 /* UIImage+ColorPicker.m */; };
+		1E5C0FE220C6926B00F8B5E0 /* DTColorPickerImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FBC20C6926B00F8B5E0 /* DTColorPickerImageView.m */; };
+		1E5C0FE320C6926B00F8B5E0 /* fontcolor_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FBD20C6926B00F8B5E0 /* fontcolor_bar.png */; };
+		1E5C0FE420C6926B00F8B5E0 /* NLImageCropperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FBF20C6926B00F8B5E0 /* NLImageCropperView.m */; };
+		1E5C0FE520C6926B00F8B5E0 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FC020C6926B00F8B5E0 /* gray.png */; };
+		1E5C0FE620C6926B00F8B5E0 /* NLCropViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FC320C6926B00F8B5E0 /* NLCropViewLayer.m */; };
+		1E5C0FE720C6926B00F8B5E0 /* ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FC520C6926B00F8B5E0 /* ruler.png */; };
+		1E5C0FE820C6926B00F8B5E0 /* LURulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FC720C6926B00F8B5E0 /* LURulerView.m */; };
+		1E5C0FE920C6926B00F8B5E0 /* DrawingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FCA20C6926B00F8B5E0 /* DrawingDataManager.m */; };
+		1E5C0FED20C6936400F8B5E0 /* LUOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FEC20C6936400F8B5E0 /* LUOperation.m */; };
+		1E5C0FF320C6945E00F8B5E0 /* LUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FEF20C6945E00F8B5E0 /* LUConstants.m */; };
+		1E5C0FFD20C6AD6200F8B5E0 /* LUStudentNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FF520C6AD6200F8B5E0 /* LUStudentNotificationViewController.m */; };
+		1E5C0FFE20C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FF720C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.m */; };
+		1E5C0FFF20C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FF820C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.m */; };
+		1E5C100020C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C0FF920C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.xib */; };
+		1E5C100120C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C0FFB20C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.m */; };
+		1E5C101220C7A15600F8B5E0 /* LUShelfCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C100520C7A15600F8B5E0 /* LUShelfCollectionViewCell.xib */; };
+		1E5C101320C7A15600F8B5E0 /* LUShelfContainerCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C100620C7A15600F8B5E0 /* LUShelfContainerCellView.m */; };
+		1E5C101420C7A15600F8B5E0 /*  JSON File in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C100720C7A15600F8B5E0 /*  JSON File */; };
+		1E5C101520C7A15600F8B5E0 /* LUShelfCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C100920C7A15600F8B5E0 /* LUShelfCollectionViewCell.m */; };
+		1E5C101620C7A15600F8B5E0 /* Notes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C100A20C7A15600F8B5E0 /* Notes.json */; };
+		1E5C101720C7A15600F8B5E0 /* LUShelfCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C100C20C7A15600F8B5E0 /* LUShelfCellTableViewCell.m */; };
+		1E5C101820C7A15600F8B5E0 /* Note.File in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C100D20C7A15600F8B5E0 /* Note.File */; };
+		1E5C101920C7A15600F8B5E0 /* LUShelfListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C100E20C7A15600F8B5E0 /* LUShelfListViewController.m */; };
+		1E5C101A20C7A15600F8B5E0 /* LUShelfContainerCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C100F20C7A15600F8B5E0 /* LUShelfContainerCellView.xib */; };
+		1E5C101B20C7A15600F8B5E0 /* NotesJSON in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C101120C7A15600F8B5E0 /* NotesJSON */; };
+		1E5C103020C7A4DA00F8B5E0 /* TeacherOnlineExam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C101C20C7A4D900F8B5E0 /* TeacherOnlineExam.png */; };
+		1E5C103120C7A4DA00F8B5E0 /* TeachersMessages.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C101D20C7A4D900F8B5E0 /* TeachersMessages.png */; };
+		1E5C103220C7A4DA00F8B5E0 /* TeacherResourceBank.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C101E20C7A4D900F8B5E0 /* TeacherResourceBank.png */; };
+		1E5C103320C7A4DA00F8B5E0 /* TeachersAssignment.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C101F20C7A4D900F8B5E0 /* TeachersAssignment.png */; };
+		1E5C103420C7A4DA00F8B5E0 /* StudentOnlineExam.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102020C7A4D900F8B5E0 /* StudentOnlineExam.png */; };
+		1E5C103520C7A4DA00F8B5E0 /* StudentBook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102120C7A4D900F8B5E0 /* StudentBook.png */; };
+		1E5C103620C7A4DA00F8B5E0 /* TeachersEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102220C7A4D900F8B5E0 /* TeachersEmail.png */; };
+		1E5C103720C7A4DA00F8B5E0 /* TeachersBook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102320C7A4D900F8B5E0 /* TeachersBook.png */; };
+		1E5C103820C7A4DA00F8B5E0 /* StudentGraphMath.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102420C7A4D900F8B5E0 /* StudentGraphMath.png */; };
+		1E5C103920C7A4DA00F8B5E0 /* TeachersLibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102520C7A4D900F8B5E0 /* TeachersLibrary.png */; };
+		1E5C103A20C7A4DA00F8B5E0 /* TeachersNotes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102620C7A4D900F8B5E0 /* TeachersNotes.png */; };
+		1E5C103B20C7A4DA00F8B5E0 /* StudentNote.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102720C7A4D900F8B5E0 /* StudentNote.png */; };
+		1E5C103C20C7A4DA00F8B5E0 /* TeacherTimeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102820C7A4D900F8B5E0 /* TeacherTimeTable.png */; };
+		1E5C103D20C7A4DA00F8B5E0 /* StudentResourceBank.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102920C7A4D900F8B5E0 /* StudentResourceBank.png */; };
+		1E5C103E20C7A4DA00F8B5E0 /* StudentDrawing.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102A20C7A4D900F8B5E0 /* StudentDrawing.png */; };
+		1E5C103F20C7A4DA00F8B5E0 /* StudentLibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102B20C7A4D900F8B5E0 /* StudentLibrary.png */; };
+		1E5C104020C7A4DA00F8B5E0 /* StudentMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102C20C7A4D900F8B5E0 /* StudentMessage.png */; };
+		1E5C104120C7A4DA00F8B5E0 /* TeachersDraw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102D20C7A4D900F8B5E0 /* TeachersDraw.png */; };
+		1E5C104220C7A4DA00F8B5E0 /* StudentAssignment.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102E20C7A4D900F8B5E0 /* StudentAssignment.png */; };
+		1E5C104320C7A4DA00F8B5E0 /* StudentTimeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C102F20C7A4DA00F8B5E0 /* StudentTimeTable.png */; };
+		1E5C104620C7A7AD00F8B5E0 /* LUUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C104420C7A7AD00F8B5E0 /* LUUtilities.m */; };
+		1E5C105420C7A80B00F8B5E0 /* LUActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C104820C7A80B00F8B5E0 /* LUActivityIndicator.m */; };
+		1E5C105520C7A80B00F8B5E0 /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C104B20C7A80B00F8B5E0 /* a1.png */; };
+		1E5C105620C7A80B00F8B5E0 /* a3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C104C20C7A80B00F8B5E0 /* a3.png */; };
+		1E5C105720C7A80B00F8B5E0 /* a2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C104D20C7A80B00F8B5E0 /* a2.png */; };
+		1E5C105820C7A80B00F8B5E0 /* LUAlertPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C104F20C7A80B00F8B5E0 /* LUAlertPopup.m */; };
+		1E5C105920C7A80B00F8B5E0 /* alertBG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C105120C7A80B00F8B5E0 /* alertBG2.png */; };
+		1E5C105A20C7A80B00F8B5E0 /* alertBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C105220C7A80B00F8B5E0 /* alertBG.png */; };
+		1E5C105E20C7A8C500F8B5E0 /* LUReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C105C20C7A8C500F8B5E0 /* LUReachability.m */; };
+		1E5C143920C7F80300F8B5E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C143820C7F80300F8B5E0 /* UIKit.framework */; };
+		1E5C143B20C7F80A00F8B5E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C143A20C7F80A00F8B5E0 /* CoreGraphics.framework */; };
+		1E5C143F20C7F82600F8B5E0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C143E20C7F82600F8B5E0 /* QuartzCore.framework */; };
+		1E5C144120C7F83200F8B5E0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C144020C7F83200F8B5E0 /* MessageUI.framework */; };
+		1E5C144720C7F84E00F8B5E0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C144620C7F84E00F8B5E0 /* ImageIO.framework */; };
+		1E5C144920C7F85D00F8B5E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C144820C7F85D00F8B5E0 /* SystemConfiguration.framework */; };
+		1E5C144F20C7F88500F8B5E0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C144E20C7F88500F8B5E0 /* libsqlite3.0.tbd */; };
+		1E5C14BC20C7F93400F8B5E0 /* YouTubeiOSPlayerHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C145E20C7F93300F8B5E0 /* YouTubeiOSPlayerHelper.framework */; };
+		1E5C14BD20C7F93400F8B5E0 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C146120C7F93300F8B5E0 /* JSONValueTransformer.m */; };
+		1E5C14BE20C7F93400F8B5E0 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C146420C7F93300F8B5E0 /* JSONKeyMapper.m */; };
+		1E5C14BF20C7F93400F8B5E0 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C146720C7F93300F8B5E0 /* JSONModel.m */; };
+		1E5C14C020C7F93400F8B5E0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C146820C7F93300F8B5E0 /* JSONModelError.m */; };
+		1E5C14C120C7F93400F8B5E0 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C146B20C7F93300F8B5E0 /* JSONModelClassProperty.m */; };
+		1E5C14C220C7F93400F8B5E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C146D20C7F93300F8B5E0 /* Info.plist */; };
+		1E5C14C320C7F93400F8B5E0 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C147020C7F93300F8B5E0 /* JSONHTTPClient.m */; };
+		1E5C14C420C7F93400F8B5E0 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C147120C7F93300F8B5E0 /* JSONAPI.m */; };
+		1E5C14C520C7F93400F8B5E0 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C147520C7F93300F8B5E0 /* JSONModel+networking.m */; };
+		1E5C14C620C7F93400F8B5E0 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C147620C7F93300F8B5E0 /* Assets.bundle */; };
+		1E5C14C720C7F93400F8B5E0 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C147C20C7F93300F8B5E0 /* UIXToolbarView.m */; };
+		1E5C14C820C7F93400F8B5E0 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C147D20C7F93300F8B5E0 /* Constants.m */; };
+		1E5C14C920C7F93400F8B5E0 /* MainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C147F20C7F93300F8B5E0 /* MainToolbar.m */; };
+		1E5C14CA20C7F93400F8B5E0 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148220C7F93300F8B5E0 /* ContentView.m */; };
+		1E5C14CB20C7F93400F8B5E0 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148320C7F93300F8B5E0 /* Document.m */; };
+		1E5C14CC20C7F93400F8B5E0 /* ThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148420C7F93300F8B5E0 /* ThumbFetch.m */; };
+		1E5C14CD20C7F93400F8B5E0 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148520C7F93300F8B5E0 /* DrawingView.m */; };
+		1E5C14CE20C7F93400F8B5E0 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148620C7F93300F8B5E0 /* CGPDFDocument.m */; };
+		1E5C14CF20C7F93400F8B5E0 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148820C7F93300F8B5E0 /* Annotation.m */; };
+		1E5C14D020C7F93400F8B5E0 /* DocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148920C7F93300F8B5E0 /* DocumentOutline.m */; };
+		1E5C14D120C7F93400F8B5E0 /* ThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148A20C7F93300F8B5E0 /* ThumbQueue.m */; };
+		1E5C14D220C7F93400F8B5E0 /* SourceColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148B20C7F93300F8B5E0 /* SourceColorView.m */; };
+		1E5C14D320C7F93400F8B5E0 /* ContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148C20C7F93300F8B5E0 /* ContentPage.m */; };
+		1E5C14D420C7F93400F8B5E0 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C148E20C7F93300F8B5E0 /* TouchView.m */; };
+		1E5C14D520C7F93400F8B5E0 /* ThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149020C7F93300F8B5E0 /* ThumbRender.m */; };
+		1E5C14D620C7F93400F8B5E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149220C7F93300F8B5E0 /* ViewController.m */; };
+		1E5C14D720C7F93400F8B5E0 /* ContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149420C7F93300F8B5E0 /* ContentTile.m */; };
+		1E5C14D820C7F93400F8B5E0 /* ThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149720C7F93300F8B5E0 /* ThumbRequest.m */; };
+		1E5C14D920C7F93400F8B5E0 /* MainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149B20C7F93300F8B5E0 /* MainPagebar.m */; };
+		1E5C14DA20C7F93400F8B5E0 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149C20C7F93300F8B5E0 /* PopoverView.m */; };
+		1E5C14DB20C7F93400F8B5E0 /* PopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149D20C7F93300F8B5E0 /* PopoverController.m */; };
+		1E5C14DC20C7F93400F8B5E0 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C149F20C7F93300F8B5E0 /* ThumbsViewController.m */; };
+		1E5C14DD20C7F93400F8B5E0 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14A520C7F93300F8B5E0 /* DataManager.m */; };
+		1E5C14DE20C7F93400F8B5E0 /* DrawToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14A620C7F93300F8B5E0 /* DrawToolbar.m */; };
+		1E5C14DF20C7F93400F8B5E0 /* PropertyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14A820C7F93300F8B5E0 /* PropertyController.m */; };
+		1E5C14E020C7F93400F8B5E0 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14AA20C7F93300F8B5E0 /* File.m */; };
+		1E5C14E120C7F93400F8B5E0 /* ThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14AF20C7F93300F8B5E0 /* ThumbView.m */; };
+		1E5C14E220C7F93400F8B5E0 /* ThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14B220C7F93300F8B5E0 /* ThumbsView.m */; };
+		1E5C14E320C7F93400F8B5E0 /* ThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14B320C7F93300F8B5E0 /* ThumbCache.m */; };
+		1E5C14E420C7F93400F8B5E0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14B420C7F93300F8B5E0 /* Model.xcdatamodeld */; };
+		1E5C14E520C7F93400F8B5E0 /* DrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14B720C7F93300F8B5E0 /* DrawingTools.m */; };
+		1E5C14E620C7F93400F8B5E0 /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C14B920C7F93300F8B5E0 /* ThumbsMainToolbar.m */; };
+		1E5C14E720C7F93400F8B5E0 /* VVDocumenter-Xcode.xcplugin in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C14BA20C7F93300F8B5E0 /* VVDocumenter-Xcode.xcplugin */; };
+		1E5C14E820C7F93400F8B5E0 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C14BB20C7F93400F8B5E0 /* JSONModel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E5C0E1F20C663BA00F8B5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5C0DFE20C663B800F8B5E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5C0E0520C663B800F8B5E0;
+			remoteInfo = LUStudent;
+		};
+		1E5C0E2A20C663BA00F8B5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5C0DFE20C663B800F8B5E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5C0E0520C663B800F8B5E0;
+			remoteInfo = LUStudent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5C0E0620C663B800F8B5E0 /* LUStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5C0E0920C663B800F8B5E0 /* LUStudentAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUStudentAppDelegate.h; sourceTree = "<group>"; };
+		1E5C0E0A20C663B800F8B5E0 /* LUStudentAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUStudentAppDelegate.m; sourceTree = "<group>"; };
+		1E5C0E0C20C663B800F8B5E0 /* LUStudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUStudentViewController.h; sourceTree = "<group>"; };
+		1E5C0E0D20C663B800F8B5E0 /* LUStudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUStudentViewController.m; sourceTree = "<group>"; };
+		1E5C0E1020C663B800F8B5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E5C0E1220C663BA00F8B5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E5C0E1520C663BA00F8B5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E5C0E1720C663BA00F8B5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5C0E1820C663BA00F8B5E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E5C0E1E20C663BA00F8B5E0 /* LUStudentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUStudentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5C0E2220C663BA00F8B5E0 /* LUStudentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUStudentTests.m; sourceTree = "<group>"; };
+		1E5C0E2420C663BA00F8B5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5C0E2920C663BA00F8B5E0 /* LUStudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUStudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5C0E2D20C663BA00F8B5E0 /* LUStudentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUStudentUITests.m; sourceTree = "<group>"; };
+		1E5C0E2F20C663BA00F8B5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5C0E5420C690CD00F8B5E0 /* LUStudentProfileSubjectTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentProfileSubjectTableCell.m; sourceTree = "<group>"; };
+		1E5C0E5520C690CD00F8B5E0 /* LUStudentProfileCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentProfileCollectionViewCell.m; sourceTree = "<group>"; };
+		1E5C0E5620C690CD00F8B5E0 /* LUStudentProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentProfileViewController.m; sourceTree = "<group>"; };
+		1E5C0E5720C690CD00F8B5E0 /* LUStudentProfileCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentProfileCollectionViewCell.h; sourceTree = "<group>"; };
+		1E5C0E5820C690CD00F8B5E0 /* LUStudentProfileSubjectTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentProfileSubjectTableCell.h; sourceTree = "<group>"; };
+		1E5C0E5A20C690CD00F8B5E0 /* StudentProfileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentProfileIcon.png; sourceTree = "<group>"; };
+		1E5C0E5B20C690CD00F8B5E0 /* NameIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NameIcon.png; sourceTree = "<group>"; };
+		1E5C0E5C20C690CD00F8B5E0 /* PhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneIcon.png; sourceTree = "<group>"; };
+		1E5C0E5D20C690CD00F8B5E0 /* GirlIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GirlIcon.png; sourceTree = "<group>"; };
+		1E5C0E5E20C690CD00F8B5E0 /* BoyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoyIcon.png; sourceTree = "<group>"; };
+		1E5C0E5F20C690CD00F8B5E0 /* DateofBirthIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DateofBirthIcon.png; sourceTree = "<group>"; };
+		1E5C0E6020C690CD00F8B5E0 /* AddressIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddressIcon.png; sourceTree = "<group>"; };
+		1E5C0E6120C690CD00F8B5E0 /* ClassIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClassIcon.png; sourceTree = "<group>"; };
+		1E5C0E6220C690CD00F8B5E0 /* ProfileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileIcon.png; sourceTree = "<group>"; };
+		1E5C0E6320C690CD00F8B5E0 /* GradeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GradeIcon.png; sourceTree = "<group>"; };
+		1E5C0E6420C690CD00F8B5E0 /* EmailIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmailIcon.png; sourceTree = "<group>"; };
+		1E5C0E6520C690CE00F8B5E0 /* LUStudentProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentProfileViewController.h; sourceTree = "<group>"; };
+		1E5C0E7420C6913900F8B5E0 /* YRCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCoverFlowLayout.m; sourceTree = "<group>"; };
+		1E5C0E7520C6913900F8B5E0 /* YRCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCoverFlowLayout.h; sourceTree = "<group>"; };
+		1E5C0E7720C6913900F8B5E0 /* Reader-Email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Email@2x.png"; sourceTree = "<group>"; };
+		1E5C0E7820C6913900F8B5E0 /* Reader-Button-N@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-N@3x.png"; sourceTree = "<group>"; };
+		1E5C0E7920C6913900F8B5E0 /* Reader-Print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Print.png"; sourceTree = "<group>"; };
+		1E5C0E7A20C6913900F8B5E0 /* Reader-Button-N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-N@2x.png"; sourceTree = "<group>"; };
+		1E5C0E7B20C6913900F8B5E0 /* Reader-Email@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Email@3x.png"; sourceTree = "<group>"; };
+		1E5C0E7C20C6913900F8B5E0 /* Reader-Mark-Y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-Y@2x.png"; sourceTree = "<group>"; };
+		1E5C0E7D20C6913900F8B5E0 /* Reader-Button-H@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-H@3x.png"; sourceTree = "<group>"; };
+		1E5C0E7E20C6913900F8B5E0 /* Reader-Button-H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-H.png"; sourceTree = "<group>"; };
+		1E5C0E7F20C6913900F8B5E0 /* chemistry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chemistry.jpg; sourceTree = "<group>"; };
+		1E5C0E8020C6913900F8B5E0 /* Reader-Button-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-N.png"; sourceTree = "<group>"; };
+		1E5C0E8120C6913900F8B5E0 /* Reader-Button-H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Button-H@2x.png"; sourceTree = "<group>"; };
+		1E5C0E8220C6913900F8B5E0 /* Reader-Mark-Y@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-Y@3x.png"; sourceTree = "<group>"; };
+		1E5C0E8320C6913900F8B5E0 /* Reader-Print@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Print@2x.png"; sourceTree = "<group>"; };
+		1E5C0E8420C6913900F8B5E0 /* history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = history.jpg; sourceTree = "<group>"; };
+		1E5C0E8520C6913900F8B5E0 /* Reader-Thumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Thumbs.png"; sourceTree = "<group>"; };
+		1E5C0E8620C6913900F8B5E0 /* Reader-Thumbs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Thumbs@2x.png"; sourceTree = "<group>"; };
+		1E5C0E8720C6913900F8B5E0 /* Reader-Email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Email.png"; sourceTree = "<group>"; };
+		1E5C0E8820C6913900F8B5E0 /* Reader-Thumbs@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Thumbs@3x.png"; sourceTree = "<group>"; };
+		1E5C0E8920C6913900F8B5E0 /* greek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greek.jpg; sourceTree = "<group>"; };
+		1E5C0E8A20C6913900F8B5E0 /* Reader-Print@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Print@3x.png"; sourceTree = "<group>"; };
+		1E5C0E8B20C6913900F8B5E0 /* science-round-corners.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "science-round-corners.jpg"; sourceTree = "<group>"; };
+		1E5C0E8C20C6913900F8B5E0 /* computer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = computer.jpg; sourceTree = "<group>"; };
+		1E5C0E8D20C6913900F8B5E0 /* Reader-Mark-Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-Y.png"; sourceTree = "<group>"; };
+		1E5C0E8E20C6913900F8B5E0 /* Reader-Mark-N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-N.png"; sourceTree = "<group>"; };
+		1E5C0E8F20C6913900F8B5E0 /* Reader-Export@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Export@3x.png"; sourceTree = "<group>"; };
+		1E5C0E9020C6913900F8B5E0 /* Reader-Mark-N@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-N@3x.png"; sourceTree = "<group>"; };
+		1E5C0E9120C6913900F8B5E0 /* Reader-Export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Export.png"; sourceTree = "<group>"; };
+		1E5C0E9220C6913900F8B5E0 /* Reader-Mark-N@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Mark-N@2x.png"; sourceTree = "<group>"; };
+		1E5C0E9320C6913900F8B5E0 /* Reader-Export@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reader-Export@2x.png"; sourceTree = "<group>"; };
+		1E5C0E9420C6913900F8B5E0 /* english.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = english.jpg; sourceTree = "<group>"; };
+		1E5C0E9520C6913900F8B5E0 /* LUStudentTextBookModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentTextBookModuleViewController.m; sourceTree = "<group>"; };
+		1E5C0E9620C6913900F8B5E0 /* LUCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUCoverFlowLayout.h; sourceTree = "<group>"; };
+		1E5C0E9720C6913900F8B5E0 /* LUStudentTextBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentTextBookViewController.h; sourceTree = "<group>"; };
+		1E5C0E9820C6913900F8B5E0 /* LUCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUCoverFlowLayout.m; sourceTree = "<group>"; };
+		1E5C0E9920C6913900F8B5E0 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
+		1E5C0E9A20C6913900F8B5E0 /* LUStudentTextBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentTextBookViewController.m; sourceTree = "<group>"; };
+		1E5C0E9B20C6913900F8B5E0 /* LUStudentTextBookModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentTextBookModuleViewController.h; sourceTree = "<group>"; };
+		1E5C0E9D20C6913900F8B5E0 /* ReaderContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentTile.m; sourceTree = "<group>"; };
+		1E5C0E9E20C6913900F8B5E0 /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		1E5C0E9F20C6913900F8B5E0 /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		1E5C0EA020C6913900F8B5E0 /* ReaderThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbsView.h; sourceTree = "<group>"; };
+		1E5C0EA120C6913900F8B5E0 /* ReaderThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbCache.h; sourceTree = "<group>"; };
+		1E5C0EA220C6913900F8B5E0 /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocumentOutline.h; sourceTree = "<group>"; };
+		1E5C0EA320C6913900F8B5E0 /* ReaderThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbQueue.m; sourceTree = "<group>"; };
+		1E5C0EA420C6913900F8B5E0 /* ReaderContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentPage.m; sourceTree = "<group>"; };
+		1E5C0EA520C6913900F8B5E0 /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderConstants.h; sourceTree = "<group>"; };
+		1E5C0EA620C6913900F8B5E0 /* ReaderThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRender.m; sourceTree = "<group>"; };
+		1E5C0EA720C6913900F8B5E0 /* ReaderThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRequest.h; sourceTree = "<group>"; };
+		1E5C0EA820C6913900F8B5E0 /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		1E5C0EA920C6913900F8B5E0 /* ReaderContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentView.m; sourceTree = "<group>"; };
+		1E5C0EAA20C6913900F8B5E0 /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		1E5C0EAB20C6913900F8B5E0 /* ReaderThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbFetch.m; sourceTree = "<group>"; };
+		1E5C0EAC20C6913900F8B5E0 /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		1E5C0EAD20C6913900F8B5E0 /* ReaderMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainPagebar.h; sourceTree = "<group>"; };
+		1E5C0EAE20C6913900F8B5E0 /* ReaderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbView.m; sourceTree = "<group>"; };
+		1E5C0EAF20C6913900F8B5E0 /* ReaderMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainToolbar.m; sourceTree = "<group>"; };
+		1E5C0EB020C6913900F8B5E0 /* ReaderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocument.m; sourceTree = "<group>"; };
+		1E5C0EB120C6913900F8B5E0 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photos.json; sourceTree = "<group>"; };
+		1E5C0EB220C6913900F8B5E0 /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		1E5C0EB320C6913900F8B5E0 /* ReaderThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbCache.m; sourceTree = "<group>"; };
+		1E5C0EB420C6913900F8B5E0 /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
+		1E5C0EB520C6913900F8B5E0 /* ReaderThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbsView.m; sourceTree = "<group>"; };
+		1E5C0EB620C6913900F8B5E0 /* ReaderContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentTile.h; sourceTree = "<group>"; };
+		1E5C0EB720C6913900F8B5E0 /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		1E5C0EB820C6913900F8B5E0 /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		1E5C0EB920C6913900F8B5E0 /* ReaderThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRequest.m; sourceTree = "<group>"; };
+		1E5C0EBA20C6913900F8B5E0 /* ReaderThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRender.h; sourceTree = "<group>"; };
+		1E5C0EBB20C6913900F8B5E0 /* ReaderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderConstants.m; sourceTree = "<group>"; };
+		1E5C0EBC20C6913900F8B5E0 /* ReaderContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentPage.h; sourceTree = "<group>"; };
+		1E5C0EBD20C6913900F8B5E0 /* ReaderThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbQueue.h; sourceTree = "<group>"; };
+		1E5C0EBE20C6913900F8B5E0 /* ReaderThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbFetch.h; sourceTree = "<group>"; };
+		1E5C0EBF20C6913900F8B5E0 /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		1E5C0EC020C6913900F8B5E0 /* ReaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentView.h; sourceTree = "<group>"; };
+		1E5C0EC120C6913900F8B5E0 /* ReaderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocument.h; sourceTree = "<group>"; };
+		1E5C0EC220C6913900F8B5E0 /* ReaderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbView.h; sourceTree = "<group>"; };
+		1E5C0EC320C6913900F8B5E0 /* ReaderMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainToolbar.h; sourceTree = "<group>"; };
+		1E5C0EC420C6913900F8B5E0 /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		1E5C0EC520C6913900F8B5E0 /* ReaderMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainPagebar.m; sourceTree = "<group>"; };
+		1E5C0EC620C6913900F8B5E0 /* Reader.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Reader.pdf; sourceTree = "<group>"; };
+		1E5C0F0020C6917400F8B5E0 /* LUStudentResourceLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentResourceLibraryViewController.m; sourceTree = "<group>"; };
+		1E5C0F0120C6917400F8B5E0 /* LUVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUVideoPlayerViewController.h; sourceTree = "<group>"; };
+		1E5C0F0220C6917400F8B5E0 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		1E5C0F0320C6917400F8B5E0 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		1E5C0F0420C6917400F8B5E0 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		1E5C0F0520C6917400F8B5E0 /* LUStudentResourceLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentResourceLibraryViewController.h; sourceTree = "<group>"; };
+		1E5C0F0620C6917400F8B5E0 /* LUVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUVideoPlayerViewController.m; sourceTree = "<group>"; };
+		1E5C0F0C20C691A200F8B5E0 /* LUNotesMainDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNotesMainDataManager.h; sourceTree = "<group>"; };
+		1E5C0F0D20C691A200F8B5E0 /* LUNotesMainDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNotesMainDataManager.m; sourceTree = "<group>"; };
+		1E5C0F0F20C691A200F8B5E0 /* LUNotesDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNotesDrawingView.h; sourceTree = "<group>"; };
+		1E5C0F1020C691A200F8B5E0 /* LUNotesDrawingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNotesDrawingTool.m; sourceTree = "<group>"; };
+		1E5C0F1120C691A200F8B5E0 /* LUNotesDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUNotesDrawingView.m; sourceTree = "<group>"; };
+		1E5C0F1220C691A200F8B5E0 /* LUNotesDrawingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUNotesDrawingTool.h; sourceTree = "<group>"; };
+		1E5C0F1420C691A200F8B5E0 /* LUWriteNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUWriteNotesViewController.m; sourceTree = "<group>"; };
+		1E5C0F1520C691A200F8B5E0 /* ColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorWheel.png; sourceTree = "<group>"; };
+		1E5C0F1620C691A200F8B5E0 /* LUWriteNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUWriteNotesViewController.h; sourceTree = "<group>"; };
+		1E5C0F1820C691A200F8B5E0 /* LUPageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUPageType.h; sourceTree = "<group>"; };
+		1E5C0F1920C691A200F8B5E0 /* LUPageType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUPageType.m; sourceTree = "<group>"; };
+		1E5C0F2020C691C900F8B5E0 /* LUStudentAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentAssignmentViewController.h; sourceTree = "<group>"; };
+		1E5C0F2220C691C900F8B5E0 /* redo-Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redo-Gray.png"; sourceTree = "<group>"; };
+		1E5C0F2320C691C900F8B5E0 /* arrowright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowright.png; sourceTree = "<group>"; };
+		1E5C0F2420C691C900F8B5E0 /* submittedStatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submittedStatus.png; sourceTree = "<group>"; };
+		1E5C0F2520C691C900F8B5E0 /* rejected-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rejected-gray.png"; sourceTree = "<group>"; };
+		1E5C0F2620C691C900F8B5E0 /* DRAW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DRAW.png; sourceTree = "<group>"; };
+		1E5C0F2720C691C900F8B5E0 /* approved@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "approved@2x.png"; sourceTree = "<group>"; };
+		1E5C0F2820C691C900F8B5E0 /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
+		1E5C0F2920C691C900F8B5E0 /* rejected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rejected@2x.png"; sourceTree = "<group>"; };
+		1E5C0F2A20C691C900F8B5E0 /* redoStatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redoStatus.png; sourceTree = "<group>"; };
+		1E5C0F2B20C691C900F8B5E0 /* approved-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "approved-gray.png"; sourceTree = "<group>"; };
+		1E5C0F2C20C691C900F8B5E0 /* ATTACH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ATTACH.png; sourceTree = "<group>"; };
+		1E5C0F2D20C691C900F8B5E0 /* approvedStatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = approvedStatus.png; sourceTree = "<group>"; };
+		1E5C0F2E20C691C900F8B5E0 /* submitted-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submitted-gray.png"; sourceTree = "<group>"; };
+		1E5C0F2F20C691C900F8B5E0 /* GREEN-Submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GREEN-Submit.png"; sourceTree = "<group>"; };
+		1E5C0F3020C691C900F8B5E0 /* submitted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submitted@2x.png"; sourceTree = "<group>"; };
+		1E5C0F3120C691C900F8B5E0 /* rejectedStatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rejectedStatus.png; sourceTree = "<group>"; };
+		1E5C0F3220C691C900F8B5E0 /* WRITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WRITE.png; sourceTree = "<group>"; };
+		1E5C0F3420C691C900F8B5E0 /* LUAssignmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUAssignmentCell.h; sourceTree = "<group>"; };
+		1E5C0F3520C691C900F8B5E0 /* LUAssignmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUAssignmentCell.m; sourceTree = "<group>"; };
+		1E5C0F3620C691C900F8B5E0 /* LUStudentAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentAssignmentViewController.m; sourceTree = "<group>"; };
+		1E5C0F3820C691C900F8B5E0 /* LUAssignmentSubmitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUAssignmentSubmitCell.m; sourceTree = "<group>"; };
+		1E5C0F3920C691C900F8B5E0 /* LUAssignmentSubmitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUAssignmentSubmitCell.h; sourceTree = "<group>"; };
+		1E5C0F4E20C6921800F8B5E0 /* LUTimeTableCalendarDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTimeTableCalendarDataSource.h; sourceTree = "<group>"; };
+		1E5C0F4F20C6921900F8B5E0 /* LUTimeTableCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTimeTableCalendarEvent.h; sourceTree = "<group>"; };
+		1E5C0F5020C6921900F8B5E0 /* LUTimeTableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTimeTableDetailViewController.h; sourceTree = "<group>"; };
+		1E5C0F5120C6921900F8B5E0 /* LUTimeTableCalendarEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTimeTableCalendarEventCell.m; sourceTree = "<group>"; };
+		1E5C0F5220C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTimeTableWeekCalendarLayout.h; sourceTree = "<group>"; };
+		1E5C0F5320C6921900F8B5E0 /* LUTodayTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTodayTimeTableViewController.h; sourceTree = "<group>"; };
+		1E5C0F5420C6921900F8B5E0 /* LUStudentTimeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentTimeTableViewController.h; sourceTree = "<group>"; };
+		1E5C0F5520C6921900F8B5E0 /* LUTimeTableCalendarEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTimeTableCalendarEventCell.h; sourceTree = "<group>"; };
+		1E5C0F5620C6921900F8B5E0 /* LUTimeTableDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUTimeTableDetailViewController.xib; sourceTree = "<group>"; };
+		1E5C0F5720C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTimeTableSampleCalendarEvent.m; sourceTree = "<group>"; };
+		1E5C0F5820C6921900F8B5E0 /* LUHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUHeaderView.h; sourceTree = "<group>"; };
+		1E5C0F5920C6921900F8B5E0 /* LUStudentTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentTimeTableViewController.m; sourceTree = "<group>"; };
+		1E5C0F5A20C6921900F8B5E0 /* LUTodayTimeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTodayTimeTableViewController.m; sourceTree = "<group>"; };
+		1E5C0F5B20C6921900F8B5E0 /* LUTimeTableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTimeTableDetailViewController.m; sourceTree = "<group>"; };
+		1E5C0F5C20C6921900F8B5E0 /* LUTimeTableCalendarDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTimeTableCalendarDataSource.m; sourceTree = "<group>"; };
+		1E5C0F5D20C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUTimeTableWeekCalendarLayout.m; sourceTree = "<group>"; };
+		1E5C0F5E20C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUTimeTableSampleCalendarEvent.h; sourceTree = "<group>"; };
+		1E5C0F5F20C6921900F8B5E0 /* LUHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUHeaderView.m; sourceTree = "<group>"; };
+		1E5C0F6020C6921900F8B5E0 /* LUHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUHeaderView.xib; sourceTree = "<group>"; };
+		1E5C0F6C20C6924800F8B5E0 /* LUOnlineExamDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUOnlineExamDateFormatter.h; sourceTree = "<group>"; };
+		1E5C0F6D20C6924800F8B5E0 /* LUOnlineExamDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUOnlineExamDateFormatter.m; sourceTree = "<group>"; };
+		1E5C0F6F20C6924800F8B5E0 /* LUMatchQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMatchQuestionCell.h; sourceTree = "<group>"; };
+		1E5C0F7020C6924800F8B5E0 /* LUMatchTheFollowingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMatchTheFollowingViewController.m; sourceTree = "<group>"; };
+		1E5C0F7120C6924800F8B5E0 /* LUFillInTheBlankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUFillInTheBlankViewController.h; sourceTree = "<group>"; };
+		1E5C0F7220C6924800F8B5E0 /* LUOnlineExamQuesionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUOnlineExamQuesionsController.m; sourceTree = "<group>"; };
+		1E5C0F7320C6924800F8B5E0 /* LUStudentOnlineExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentOnlineExamViewController.m; sourceTree = "<group>"; };
+		1E5C0F7420C6924800F8B5E0 /* LUOptionalQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUOptionalQuestionsViewController.m; sourceTree = "<group>"; };
+		1E5C0F7520C6924800F8B5E0 /* LUMatchTheFollowingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUMatchTheFollowingViewController.h; sourceTree = "<group>"; };
+		1E5C0F7620C6924800F8B5E0 /* LUMatchQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUMatchQuestionCell.m; sourceTree = "<group>"; };
+		1E5C0F7720C6924800F8B5E0 /* LUFillInTheBlankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUFillInTheBlankViewController.m; sourceTree = "<group>"; };
+		1E5C0F7820C6924800F8B5E0 /* LUStudentOnlineExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentOnlineExamViewController.h; sourceTree = "<group>"; };
+		1E5C0F7920C6924800F8B5E0 /* LUOnlineExamQuesionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUOnlineExamQuesionsController.h; sourceTree = "<group>"; };
+		1E5C0F7A20C6924800F8B5E0 /* optionalquestionPList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = optionalquestionPList.plist; sourceTree = "<group>"; };
+		1E5C0F7B20C6924800F8B5E0 /* LUOptionalQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUOptionalQuestionsViewController.h; sourceTree = "<group>"; };
+		1E5C0F7D20C6924800F8B5E0 /* LUExamDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUExamDataManager.h; sourceTree = "<group>"; };
+		1E5C0F7E20C6924800F8B5E0 /* LUExamDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUExamDataManager.m; sourceTree = "<group>"; };
+		1E5C0F8020C6924800F8B5E0 /* examWrite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = examWrite.png; sourceTree = "<group>"; };
+		1E5C0F8120C6924800F8B5E0 /* green-write.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-write.png"; sourceTree = "<group>"; };
+		1E5C0F8220C6924800F8B5E0 /* radio-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-on.png"; sourceTree = "<group>"; };
+		1E5C0F8320C6924800F8B5E0 /* Complete-exam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Complete-exam.png"; sourceTree = "<group>"; };
+		1E5C0F8420C6924800F8B5E0 /* view-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view-edit.png"; sourceTree = "<group>"; };
+		1E5C0F8520C6924800F8B5E0 /* radio-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-off.png"; sourceTree = "<group>"; };
+		1E5C0F8720C6924800F8B5E0 /* LUOptionalQuestionDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUOptionalQuestionDataManager.m; sourceTree = "<group>"; };
+		1E5C0F8820C6924800F8B5E0 /* LUOptionalQuestionDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUOptionalQuestionDataManager.h; sourceTree = "<group>"; };
+		1E5C0F9A20C6926A00F8B5E0 /* LUDrawingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUDrawingCell.h; sourceTree = "<group>"; };
+		1E5C0F9B20C6926A00F8B5E0 /* LUDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUDrawingViewController.h; sourceTree = "<group>"; };
+		1E5C0F9C20C6926A00F8B5E0 /* CGStretchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGStretchView.m; sourceTree = "<group>"; };
+		1E5C0F9D20C6926A00F8B5E0 /* LUStudentMainDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentMainDrawingViewController.h; sourceTree = "<group>"; };
+		1E5C0F9F20C6926A00F8B5E0 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		1E5C0FA020C6926A00F8B5E0 /* Vector8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector8.png; sourceTree = "<group>"; };
+		1E5C0FA120C6926A00F8B5E0 /* Vector9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector9.png; sourceTree = "<group>"; };
+		1E5C0FA220C6926A00F8B5E0 /* sq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sq.png; sourceTree = "<group>"; };
+		1E5C0FA320C6926A00F8B5E0 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1E5C0FA420C6926A00F8B5E0 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
+		1E5C0FA520C6926A00F8B5E0 /* Vector10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector10.png; sourceTree = "<group>"; };
+		1E5C0FA620C6926A00F8B5E0 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		1E5C0FA720C6926A00F8B5E0 /* Vector4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector4.png; sourceTree = "<group>"; };
+		1E5C0FA820C6926A00F8B5E0 /* Vector5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector5.png; sourceTree = "<group>"; };
+		1E5C0FA920C6926A00F8B5E0 /* Vector7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector7.png; sourceTree = "<group>"; };
+		1E5C0FAA20C6926A00F8B5E0 /* Vector6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector6.png; sourceTree = "<group>"; };
+		1E5C0FAB20C6926A00F8B5E0 /* Vector2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector2.png; sourceTree = "<group>"; };
+		1E5C0FAC20C6926A00F8B5E0 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		1E5C0FAD20C6926A00F8B5E0 /* Vector3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector3.png; sourceTree = "<group>"; };
+		1E5C0FAE20C6926A00F8B5E0 /* Vector1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector1.png; sourceTree = "<group>"; };
+		1E5C0FAF20C6926A00F8B5E0 /* LUDrawingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUDrawingCell.m; sourceTree = "<group>"; };
+		1E5C0FB020C6926A00F8B5E0 /* LUDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUDrawingViewController.m; sourceTree = "<group>"; };
+		1E5C0FB220C6926A00F8B5E0 /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		1E5C0FB320C6926A00F8B5E0 /* UIImage+FloodFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FloodFill.h"; sourceTree = "<group>"; };
+		1E5C0FB420C6926A00F8B5E0 /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		1E5C0FB520C6926A00F8B5E0 /* UIImage+FloodFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FloodFill.m"; sourceTree = "<group>"; };
+		1E5C0FB620C6926A00F8B5E0 /* CGStretchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGStretchView.h; sourceTree = "<group>"; };
+		1E5C0FB720C6926A00F8B5E0 /* LUStudentMainDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentMainDrawingViewController.m; sourceTree = "<group>"; };
+		1E5C0FB920C6926B00F8B5E0 /* DTColorPickerImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTColorPickerImageView.h; sourceTree = "<group>"; };
+		1E5C0FBA20C6926B00F8B5E0 /* UIImage+ColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorPicker.m"; sourceTree = "<group>"; };
+		1E5C0FBB20C6926B00F8B5E0 /* UIImage+ColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorPicker.h"; sourceTree = "<group>"; };
+		1E5C0FBC20C6926B00F8B5E0 /* DTColorPickerImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTColorPickerImageView.m; sourceTree = "<group>"; };
+		1E5C0FBD20C6926B00F8B5E0 /* fontcolor_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontcolor_bar.png; sourceTree = "<group>"; };
+		1E5C0FBF20C6926B00F8B5E0 /* NLImageCropperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLImageCropperView.m; sourceTree = "<group>"; };
+		1E5C0FC020C6926B00F8B5E0 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		1E5C0FC120C6926B00F8B5E0 /* NLCropViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCropViewLayer.h; sourceTree = "<group>"; };
+		1E5C0FC220C6926B00F8B5E0 /* NLImageCropperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLImageCropperView.h; sourceTree = "<group>"; };
+		1E5C0FC320C6926B00F8B5E0 /* NLCropViewLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCropViewLayer.m; sourceTree = "<group>"; };
+		1E5C0FC520C6926B00F8B5E0 /* ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruler.png; sourceTree = "<group>"; };
+		1E5C0FC620C6926B00F8B5E0 /* LURulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LURulerView.h; sourceTree = "<group>"; };
+		1E5C0FC720C6926B00F8B5E0 /* LURulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LURulerView.m; sourceTree = "<group>"; };
+		1E5C0FC920C6926B00F8B5E0 /* DrawingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingDataManager.h; sourceTree = "<group>"; };
+		1E5C0FCA20C6926B00F8B5E0 /* DrawingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingDataManager.m; sourceTree = "<group>"; };
+		1E5C0FEC20C6936400F8B5E0 /* LUOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUOperation.m; sourceTree = "<group>"; };
+		1E5C0FEE20C6937700F8B5E0 /* LUOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUOperation.h; sourceTree = "<group>"; };
+		1E5C0FEF20C6945E00F8B5E0 /* LUConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUConstants.m; sourceTree = "<group>"; };
+		1E5C0FF020C6945E00F8B5E0 /* LUURLLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUURLLink.h; sourceTree = "<group>"; };
+		1E5C0FF120C6945E00F8B5E0 /* LUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUConstants.h; sourceTree = "<group>"; };
+		1E5C0FF220C6945E00F8B5E0 /* LUHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUHeader.h; sourceTree = "<group>"; };
+		1E5C0FF420C6AD6200F8B5E0 /* LUStudentNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentNotificationViewController.h; sourceTree = "<group>"; };
+		1E5C0FF520C6AD6200F8B5E0 /* LUStudentNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentNotificationViewController.m; sourceTree = "<group>"; };
+		1E5C0FF620C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentNotificationDetailCell.h; sourceTree = "<group>"; };
+		1E5C0FF720C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentNotificationAddViewController.m; sourceTree = "<group>"; };
+		1E5C0FF820C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentNotificationDetailCell.m; sourceTree = "<group>"; };
+		1E5C0FF920C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUStudentNotificationDetailViewController.xib; sourceTree = "<group>"; };
+		1E5C0FFA20C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentNotificationAddViewController.h; sourceTree = "<group>"; };
+		1E5C0FFB20C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUStudentNotificationDetailViewController.m; sourceTree = "<group>"; };
+		1E5C0FFC20C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUStudentNotificationDetailViewController.h; sourceTree = "<group>"; };
+		1E5C100420C7A15600F8B5E0 /* LUShelfCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUShelfCellTableViewCell.h; sourceTree = "<group>"; };
+		1E5C100520C7A15600F8B5E0 /* LUShelfCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUShelfCollectionViewCell.xib; sourceTree = "<group>"; };
+		1E5C100620C7A15600F8B5E0 /* LUShelfContainerCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUShelfContainerCellView.m; sourceTree = "<group>"; };
+		1E5C100720C7A15600F8B5E0 /*  JSON File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = " JSON File"; sourceTree = "<group>"; };
+		1E5C100820C7A15600F8B5E0 /* LUShelfListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUShelfListViewController.h; sourceTree = "<group>"; };
+		1E5C100920C7A15600F8B5E0 /* LUShelfCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUShelfCollectionViewCell.m; sourceTree = "<group>"; };
+		1E5C100A20C7A15600F8B5E0 /* Notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Notes.json; sourceTree = "<group>"; };
+		1E5C100B20C7A15600F8B5E0 /* LUShelfContainerCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUShelfContainerCellView.h; sourceTree = "<group>"; };
+		1E5C100C20C7A15600F8B5E0 /* LUShelfCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUShelfCellTableViewCell.m; sourceTree = "<group>"; };
+		1E5C100D20C7A15600F8B5E0 /* Note.File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.File; sourceTree = "<group>"; };
+		1E5C100E20C7A15600F8B5E0 /* LUShelfListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUShelfListViewController.m; sourceTree = "<group>"; };
+		1E5C100F20C7A15600F8B5E0 /* LUShelfContainerCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LUShelfContainerCellView.xib; sourceTree = "<group>"; };
+		1E5C101020C7A15600F8B5E0 /* LUShelfCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUShelfCollectionViewCell.h; sourceTree = "<group>"; };
+		1E5C101120C7A15600F8B5E0 /* NotesJSON */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NotesJSON; sourceTree = "<group>"; };
+		1E5C101C20C7A4D900F8B5E0 /* TeacherOnlineExam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeacherOnlineExam.png; sourceTree = "<group>"; };
+		1E5C101D20C7A4D900F8B5E0 /* TeachersMessages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersMessages.png; sourceTree = "<group>"; };
+		1E5C101E20C7A4D900F8B5E0 /* TeacherResourceBank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeacherResourceBank.png; sourceTree = "<group>"; };
+		1E5C101F20C7A4D900F8B5E0 /* TeachersAssignment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersAssignment.png; sourceTree = "<group>"; };
+		1E5C102020C7A4D900F8B5E0 /* StudentOnlineExam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentOnlineExam.png; sourceTree = "<group>"; };
+		1E5C102120C7A4D900F8B5E0 /* StudentBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentBook.png; sourceTree = "<group>"; };
+		1E5C102220C7A4D900F8B5E0 /* TeachersEmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersEmail.png; sourceTree = "<group>"; };
+		1E5C102320C7A4D900F8B5E0 /* TeachersBook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersBook.png; sourceTree = "<group>"; };
+		1E5C102420C7A4D900F8B5E0 /* StudentGraphMath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentGraphMath.png; sourceTree = "<group>"; };
+		1E5C102520C7A4D900F8B5E0 /* TeachersLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersLibrary.png; sourceTree = "<group>"; };
+		1E5C102620C7A4D900F8B5E0 /* TeachersNotes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersNotes.png; sourceTree = "<group>"; };
+		1E5C102720C7A4D900F8B5E0 /* StudentNote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentNote.png; sourceTree = "<group>"; };
+		1E5C102820C7A4D900F8B5E0 /* TeacherTimeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeacherTimeTable.png; sourceTree = "<group>"; };
+		1E5C102920C7A4D900F8B5E0 /* StudentResourceBank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentResourceBank.png; sourceTree = "<group>"; };
+		1E5C102A20C7A4D900F8B5E0 /* StudentDrawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentDrawing.png; sourceTree = "<group>"; };
+		1E5C102B20C7A4D900F8B5E0 /* StudentLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentLibrary.png; sourceTree = "<group>"; };
+		1E5C102C20C7A4D900F8B5E0 /* StudentMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentMessage.png; sourceTree = "<group>"; };
+		1E5C102D20C7A4D900F8B5E0 /* TeachersDraw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeachersDraw.png; sourceTree = "<group>"; };
+		1E5C102E20C7A4D900F8B5E0 /* StudentAssignment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentAssignment.png; sourceTree = "<group>"; };
+		1E5C102F20C7A4DA00F8B5E0 /* StudentTimeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StudentTimeTable.png; sourceTree = "<group>"; };
+		1E5C104420C7A7AD00F8B5E0 /* LUUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUUtilities.m; sourceTree = "<group>"; };
+		1E5C104520C7A7AD00F8B5E0 /* LUUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUUtilities.h; sourceTree = "<group>"; };
+		1E5C104820C7A80B00F8B5E0 /* LUActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUActivityIndicator.m; sourceTree = "<group>"; };
+		1E5C104920C7A80B00F8B5E0 /* LUActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUActivityIndicator.h; sourceTree = "<group>"; };
+		1E5C104B20C7A80B00F8B5E0 /* a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a1.png; sourceTree = "<group>"; };
+		1E5C104C20C7A80B00F8B5E0 /* a3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a3.png; sourceTree = "<group>"; };
+		1E5C104D20C7A80B00F8B5E0 /* a2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a2.png; sourceTree = "<group>"; };
+		1E5C104F20C7A80B00F8B5E0 /* LUAlertPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUAlertPopup.m; sourceTree = "<group>"; };
+		1E5C105120C7A80B00F8B5E0 /* alertBG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertBG2.png; sourceTree = "<group>"; };
+		1E5C105220C7A80B00F8B5E0 /* alertBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alertBG.png; sourceTree = "<group>"; };
+		1E5C105320C7A80B00F8B5E0 /* LUAlertPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUAlertPopup.h; sourceTree = "<group>"; };
+		1E5C105C20C7A8C500F8B5E0 /* LUReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUReachability.m; sourceTree = "<group>"; };
+		1E5C105D20C7A8C500F8B5E0 /* LUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUReachability.h; sourceTree = "<group>"; };
+		1E5C143820C7F80300F8B5E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E5C143A20C7F80A00F8B5E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E5C143E20C7F82600F8B5E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1E5C144020C7F83200F8B5E0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1E5C144620C7F84E00F8B5E0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1E5C144820C7F85D00F8B5E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1E5C144E20C7F88500F8B5E0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1E5C145E20C7F93300F8B5E0 /* YouTubeiOSPlayerHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YouTubeiOSPlayerHelper.framework; sourceTree = "<group>"; };
+		1E5C146120C7F93300F8B5E0 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		1E5C146220C7F93300F8B5E0 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		1E5C146320C7F93300F8B5E0 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		1E5C146420C7F93300F8B5E0 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		1E5C146520C7F93300F8B5E0 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		1E5C146720C7F93300F8B5E0 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		1E5C146820C7F93300F8B5E0 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		1E5C146920C7F93300F8B5E0 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		1E5C146A20C7F93300F8B5E0 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		1E5C146B20C7F93300F8B5E0 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		1E5C146C20C7F93300F8B5E0 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		1E5C146D20C7F93300F8B5E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5C146E20C7F93300F8B5E0 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		1E5C147020C7F93300F8B5E0 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		1E5C147120C7F93300F8B5E0 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		1E5C147220C7F93300F8B5E0 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		1E5C147320C7F93300F8B5E0 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		1E5C147420C7F93300F8B5E0 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		1E5C147520C7F93300F8B5E0 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		1E5C147620C7F93300F8B5E0 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
+		1E5C147820C7F93300F8B5E0 /* PopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverController.h; sourceTree = "<group>"; };
+		1E5C147920C7F93300F8B5E0 /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		1E5C147A20C7F93300F8B5E0 /* MainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPagebar.h; sourceTree = "<group>"; };
+		1E5C147B20C7F93300F8B5E0 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		1E5C147C20C7F93300F8B5E0 /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		1E5C147D20C7F93300F8B5E0 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1E5C147E20C7F93300F8B5E0 /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacros.h; sourceTree = "<group>"; };
+		1E5C147F20C7F93300F8B5E0 /* MainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainToolbar.m; sourceTree = "<group>"; };
+		1E5C148020C7F93300F8B5E0 /* DrawToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawToolbar.h; sourceTree = "<group>"; };
+		1E5C148120C7F93300F8B5E0 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		1E5C148220C7F93300F8B5E0 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		1E5C148320C7F93300F8B5E0 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		1E5C148420C7F93300F8B5E0 /* ThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbFetch.m; sourceTree = "<group>"; };
+		1E5C148520C7F93300F8B5E0 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		1E5C148620C7F93300F8B5E0 /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		1E5C148720C7F93300F8B5E0 /* ThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbView.h; sourceTree = "<group>"; };
+		1E5C148820C7F93300F8B5E0 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		1E5C148920C7F93300F8B5E0 /* DocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentOutline.m; sourceTree = "<group>"; };
+		1E5C148A20C7F93300F8B5E0 /* ThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbQueue.m; sourceTree = "<group>"; };
+		1E5C148B20C7F93300F8B5E0 /* SourceColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceColorView.m; sourceTree = "<group>"; };
+		1E5C148C20C7F93300F8B5E0 /* ContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentPage.m; sourceTree = "<group>"; };
+		1E5C148D20C7F93300F8B5E0 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		1E5C148E20C7F93300F8B5E0 /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		1E5C148F20C7F93300F8B5E0 /* PropertyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyController.h; sourceTree = "<group>"; };
+		1E5C149020C7F93300F8B5E0 /* ThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbRender.m; sourceTree = "<group>"; };
+		1E5C149120C7F93300F8B5E0 /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		1E5C149220C7F93300F8B5E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E5C149320C7F93300F8B5E0 /* DrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingTools.h; sourceTree = "<group>"; };
+		1E5C149420C7F93300F8B5E0 /* ContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTile.m; sourceTree = "<group>"; };
+		1E5C149520C7F93300F8B5E0 /* ThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbCache.h; sourceTree = "<group>"; };
+		1E5C149620C7F93300F8B5E0 /* ThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsView.h; sourceTree = "<group>"; };
+		1E5C149720C7F93300F8B5E0 /* ThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbRequest.m; sourceTree = "<group>"; };
+		1E5C149820C7F93300F8B5E0 /* MainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainToolbar.h; sourceTree = "<group>"; };
+		1E5C149920C7F93300F8B5E0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1E5C149A20C7F93300F8B5E0 /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
+		1E5C149B20C7F93300F8B5E0 /* MainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPagebar.m; sourceTree = "<group>"; };
+		1E5C149C20C7F93300F8B5E0 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		1E5C149D20C7F93300F8B5E0 /* PopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverController.m; sourceTree = "<group>"; };
+		1E5C149E20C7F93300F8B5E0 /* Kit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kit.h; sourceTree = "<group>"; };
+		1E5C149F20C7F93300F8B5E0 /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		1E5C14A020C7F93300F8B5E0 /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		1E5C14A120C7F93300F8B5E0 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		1E5C14A220C7F93300F8B5E0 /* ThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbFetch.h; sourceTree = "<group>"; };
+		1E5C14A320C7F93300F8B5E0 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		1E5C14A420C7F93300F8B5E0 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		1E5C14A520C7F93300F8B5E0 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		1E5C14A620C7F93300F8B5E0 /* DrawToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawToolbar.m; sourceTree = "<group>"; };
+		1E5C14A720C7F93300F8B5E0 /* ThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbRender.h; sourceTree = "<group>"; };
+		1E5C14A820C7F93300F8B5E0 /* PropertyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyController.m; sourceTree = "<group>"; };
+		1E5C14A920C7F93300F8B5E0 /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		1E5C14AA20C7F93300F8B5E0 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		1E5C14AB20C7F93300F8B5E0 /* ContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentPage.h; sourceTree = "<group>"; };
+		1E5C14AC20C7F93300F8B5E0 /* SourceColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceColorView.h; sourceTree = "<group>"; };
+		1E5C14AD20C7F93300F8B5E0 /* DocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentOutline.h; sourceTree = "<group>"; };
+		1E5C14AE20C7F93300F8B5E0 /* ThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbQueue.h; sourceTree = "<group>"; };
+		1E5C14AF20C7F93300F8B5E0 /* ThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbView.m; sourceTree = "<group>"; };
+		1E5C14B020C7F93300F8B5E0 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		1E5C14B120C7F93300F8B5E0 /* ThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbRequest.h; sourceTree = "<group>"; };
+		1E5C14B220C7F93300F8B5E0 /* ThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsView.m; sourceTree = "<group>"; };
+		1E5C14B320C7F93300F8B5E0 /* ThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbCache.m; sourceTree = "<group>"; };
+		1E5C14B520C7F93300F8B5E0 /* LazyPDFModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LazyPDFModel.xcdatamodel; sourceTree = "<group>"; };
+		1E5C14B620C7F93300F8B5E0 /* ContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTile.h; sourceTree = "<group>"; };
+		1E5C14B720C7F93300F8B5E0 /* DrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingTools.m; sourceTree = "<group>"; };
+		1E5C14B820C7F93300F8B5E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E5C14B920C7F93300F8B5E0 /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		1E5C14BA20C7F93300F8B5E0 /* VVDocumenter-Xcode.xcplugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "VVDocumenter-Xcode.xcplugin"; sourceTree = "<group>"; };
+		1E5C14BB20C7F93400F8B5E0 /* JSONModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSONModel.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5C0E0320C663B800F8B5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5C144F20C7F88500F8B5E0 /* libsqlite3.0.tbd in Frameworks */,
+				1E5C144920C7F85D00F8B5E0 /* SystemConfiguration.framework in Frameworks */,
+				1E5C14BC20C7F93400F8B5E0 /* YouTubeiOSPlayerHelper.framework in Frameworks */,
+				1E5C14E820C7F93400F8B5E0 /* JSONModel.framework in Frameworks */,
+				1E5C144720C7F84E00F8B5E0 /* ImageIO.framework in Frameworks */,
+				1E5C144120C7F83200F8B5E0 /* MessageUI.framework in Frameworks */,
+				1E5C143F20C7F82600F8B5E0 /* QuartzCore.framework in Frameworks */,
+				1E5C143B20C7F80A00F8B5E0 /* CoreGraphics.framework in Frameworks */,
+				1E5C143920C7F80300F8B5E0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5C0E1B20C663BA00F8B5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5C0E2620C663BA00F8B5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5C0DFD20C663B800F8B5E0 = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E0820C663B800F8B5E0 /* LUStudent */,
+				1E5C0E2120C663BA00F8B5E0 /* LUStudentTests */,
+				1E5C0E2C20C663BA00F8B5E0 /* LUStudentUITests */,
+				1E5C0E0720C663B800F8B5E0 /* Products */,
+				1E5C143720C7F80200F8B5E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5C0E0720C663B800F8B5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E0620C663B800F8B5E0 /* LUStudent.app */,
+				1E5C0E1E20C663BA00F8B5E0 /* LUStudentTests.xctest */,
+				1E5C0E2920C663BA00F8B5E0 /* LUStudentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5C0E0820C663B800F8B5E0 /* LUStudent */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C105B20C7A87100F8B5E0 /* LULogin */,
+				1E5C0E4120C664E600F8B5E0 /* LUSubModules */,
+				1E5C0E4020C6649400F8B5E0 /* LUOperation */,
+				1E5C0E3F20C6643300F8B5E0 /* LUIcons */,
+				1E5C0E3E20C6641F00F8B5E0 /* LUUtilities */,
+				1E5C0E3D20C6640900F8B5E0 /* LUModels */,
+				1E5C0E3C20C663EF00F8B5E0 /* LUFrameworks */,
+				1E5C0E3B20C663D900F8B5E0 /* LUHeader */,
+				1E5C0E0920C663B800F8B5E0 /* LUStudentAppDelegate.h */,
+				1E5C0E0A20C663B800F8B5E0 /* LUStudentAppDelegate.m */,
+				1E5C0E0C20C663B800F8B5E0 /* LUStudentViewController.h */,
+				1E5C0E0D20C663B800F8B5E0 /* LUStudentViewController.m */,
+				1E5C0E0F20C663B800F8B5E0 /* Main.storyboard */,
+				1E5C0E1220C663BA00F8B5E0 /* Assets.xcassets */,
+				1E5C0E1420C663BA00F8B5E0 /* LaunchScreen.storyboard */,
+				1E5C0E1720C663BA00F8B5E0 /* Info.plist */,
+				1E5C0E1820C663BA00F8B5E0 /* main.m */,
+			);
+			path = LUStudent;
+			sourceTree = "<group>";
+		};
+		1E5C0E2120C663BA00F8B5E0 /* LUStudentTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E2220C663BA00F8B5E0 /* LUStudentTests.m */,
+				1E5C0E2420C663BA00F8B5E0 /* Info.plist */,
+			);
+			path = LUStudentTests;
+			sourceTree = "<group>";
+		};
+		1E5C0E2C20C663BA00F8B5E0 /* LUStudentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E2D20C663BA00F8B5E0 /* LUStudentUITests.m */,
+				1E5C0E2F20C663BA00F8B5E0 /* Info.plist */,
+			);
+			path = LUStudentUITests;
+			sourceTree = "<group>";
+		};
+		1E5C0E3B20C663D900F8B5E0 /* LUHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FF120C6945E00F8B5E0 /* LUConstants.h */,
+				1E5C0FEF20C6945E00F8B5E0 /* LUConstants.m */,
+				1E5C0FF220C6945E00F8B5E0 /* LUHeader.h */,
+				1E5C0FF020C6945E00F8B5E0 /* LUURLLink.h */,
+			);
+			path = LUHeader;
+			sourceTree = "<group>";
+		};
+		1E5C0E3C20C663EF00F8B5E0 /* LUFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C147620C7F93300F8B5E0 /* Assets.bundle */,
+				1E5C145F20C7F93300F8B5E0 /* JSONModel */,
+				1E5C14BB20C7F93400F8B5E0 /* JSONModel.framework */,
+				1E5C147720C7F93300F8B5E0 /* PDFKit */,
+				1E5C14BA20C7F93300F8B5E0 /* VVDocumenter-Xcode.xcplugin */,
+				1E5C145E20C7F93300F8B5E0 /* YouTubeiOSPlayerHelper.framework */,
+			);
+			path = LUFrameworks;
+			sourceTree = "<group>";
+		};
+		1E5C0E3D20C6640900F8B5E0 /* LUModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LUModels;
+			sourceTree = "<group>";
+		};
+		1E5C0E3E20C6641F00F8B5E0 /* LUUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C104720C7A80B00F8B5E0 /* ActivityIndicator */,
+				1E5C104E20C7A80B00F8B5E0 /* AlertPanel */,
+				1E5C104520C7A7AD00F8B5E0 /* LUUtilities.h */,
+				1E5C104420C7A7AD00F8B5E0 /* LUUtilities.m */,
+				1E5C100220C7A15600F8B5E0 /* LUReusableShelf */,
+			);
+			path = LUUtilities;
+			sourceTree = "<group>";
+		};
+		1E5C0E3F20C6643300F8B5E0 /* LUIcons */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C102E20C7A4D900F8B5E0 /* StudentAssignment.png */,
+				1E5C102120C7A4D900F8B5E0 /* StudentBook.png */,
+				1E5C102A20C7A4D900F8B5E0 /* StudentDrawing.png */,
+				1E5C102420C7A4D900F8B5E0 /* StudentGraphMath.png */,
+				1E5C102B20C7A4D900F8B5E0 /* StudentLibrary.png */,
+				1E5C102C20C7A4D900F8B5E0 /* StudentMessage.png */,
+				1E5C102720C7A4D900F8B5E0 /* StudentNote.png */,
+				1E5C102020C7A4D900F8B5E0 /* StudentOnlineExam.png */,
+				1E5C102920C7A4D900F8B5E0 /* StudentResourceBank.png */,
+				1E5C102F20C7A4DA00F8B5E0 /* StudentTimeTable.png */,
+				1E5C101C20C7A4D900F8B5E0 /* TeacherOnlineExam.png */,
+				1E5C101E20C7A4D900F8B5E0 /* TeacherResourceBank.png */,
+				1E5C101F20C7A4D900F8B5E0 /* TeachersAssignment.png */,
+				1E5C102320C7A4D900F8B5E0 /* TeachersBook.png */,
+				1E5C102D20C7A4D900F8B5E0 /* TeachersDraw.png */,
+				1E5C102220C7A4D900F8B5E0 /* TeachersEmail.png */,
+				1E5C102520C7A4D900F8B5E0 /* TeachersLibrary.png */,
+				1E5C101D20C7A4D900F8B5E0 /* TeachersMessages.png */,
+				1E5C102620C7A4D900F8B5E0 /* TeachersNotes.png */,
+				1E5C102820C7A4D900F8B5E0 /* TeacherTimeTable.png */,
+			);
+			path = LUIcons;
+			sourceTree = "<group>";
+		};
+		1E5C0E4020C6649400F8B5E0 /* LUOperation */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FEE20C6937700F8B5E0 /* LUOperation.h */,
+				1E5C0FEC20C6936400F8B5E0 /* LUOperation.m */,
+			);
+			path = LUOperation;
+			sourceTree = "<group>";
+		};
+		1E5C0E4120C664E600F8B5E0 /* LUSubModules */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E5220C6665E00F8B5E0 /* Profile */,
+				1E5C0E5320C6667E00F8B5E0 /* Notifications */,
+				1E5C0E5120C6664F00F8B5E0 /* Books */,
+				1E5C0E5020C6664600F8B5E0 /* ResourceBank */,
+				1E5C0E4F20C6663E00F8B5E0 /* NoteBook */,
+				1E5C0E4E20C6663400F8B5E0 /* Assignment */,
+				1E5C0E4D20C6662A00F8B5E0 /* Message */,
+				1E5C0E4C20C6661A00F8B5E0 /* TimeTable */,
+				1E5C0E4B20C6661200F8B5E0 /* Library */,
+				1E5C0E4A20C6660100F8B5E0 /* Exam */,
+				1E5C0E4920C665EB00F8B5E0 /* Mathtool */,
+				1E5C0E4820C665D100F8B5E0 /* Draw */,
+				1E5C0E4720C665C100F8B5E0 /* ServiceRequest */,
+				1E5C0E4620C665A700F8B5E0 /* SportsAndActivity */,
+			);
+			path = LUSubModules;
+			sourceTree = "<group>";
+		};
+		1E5C0E4620C665A700F8B5E0 /* SportsAndActivity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SportsAndActivity;
+			sourceTree = "<group>";
+		};
+		1E5C0E4720C665C100F8B5E0 /* ServiceRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceRequest;
+			sourceTree = "<group>";
+		};
+		1E5C0E4820C665D100F8B5E0 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FB820C6926B00F8B5E0 /* ColorPicker */,
+				1E5C0FBE20C6926B00F8B5E0 /* Crop */,
+				1E5C0FC820C6926B00F8B5E0 /* DrawingDataManager */,
+				1E5C0F9920C6926A00F8B5E0 /* DrawingViewController */,
+				1E5C0FC420C6926B00F8B5E0 /* RulerViewClass */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		1E5C0E4920C665EB00F8B5E0 /* Mathtool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mathtool;
+			sourceTree = "<group>";
+		};
+		1E5C0E4A20C6660100F8B5E0 /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F7F20C6924800F8B5E0 /* Icon */,
+				1E5C0F7C20C6924800F8B5E0 /* LUExamDataManager */,
+				1E5C0F8620C6924800F8B5E0 /* LUOptionalQuestionDataManager */,
+				1E5C0F6B20C6924800F8B5E0 /* OnlineExamControllers */,
+				1E5C0F6E20C6924800F8B5E0 /* OnlineExamViewControllers */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
+		1E5C0E4B20C6661200F8B5E0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1E5C0E4C20C6661A00F8B5E0 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F5820C6921900F8B5E0 /* LUHeaderView.h */,
+				1E5C0F5F20C6921900F8B5E0 /* LUHeaderView.m */,
+				1E5C0F6020C6921900F8B5E0 /* LUHeaderView.xib */,
+				1E5C0F5420C6921900F8B5E0 /* LUStudentTimeTableViewController.h */,
+				1E5C0F5920C6921900F8B5E0 /* LUStudentTimeTableViewController.m */,
+				1E5C0F4E20C6921800F8B5E0 /* LUTimeTableCalendarDataSource.h */,
+				1E5C0F5C20C6921900F8B5E0 /* LUTimeTableCalendarDataSource.m */,
+				1E5C0F4F20C6921900F8B5E0 /* LUTimeTableCalendarEvent.h */,
+				1E5C0F5520C6921900F8B5E0 /* LUTimeTableCalendarEventCell.h */,
+				1E5C0F5120C6921900F8B5E0 /* LUTimeTableCalendarEventCell.m */,
+				1E5C0F5020C6921900F8B5E0 /* LUTimeTableDetailViewController.h */,
+				1E5C0F5B20C6921900F8B5E0 /* LUTimeTableDetailViewController.m */,
+				1E5C0F5620C6921900F8B5E0 /* LUTimeTableDetailViewController.xib */,
+				1E5C0F5E20C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.h */,
+				1E5C0F5720C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.m */,
+				1E5C0F5220C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.h */,
+				1E5C0F5D20C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.m */,
+				1E5C0F5320C6921900F8B5E0 /* LUTodayTimeTableViewController.h */,
+				1E5C0F5A20C6921900F8B5E0 /* LUTodayTimeTableViewController.m */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		1E5C0E4D20C6662A00F8B5E0 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1E5C0E4E20C6663400F8B5E0 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F3720C691C900F8B5E0 /* AssignmentCollectionView */,
+				1E5C0F3320C691C900F8B5E0 /* AssignmentListTable */,
+				1E5C0F2120C691C900F8B5E0 /* Icon */,
+				1E5C0F2020C691C900F8B5E0 /* LUStudentAssignmentViewController.h */,
+				1E5C0F3620C691C900F8B5E0 /* LUStudentAssignmentViewController.m */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
+		1E5C0E4F20C6663E00F8B5E0 /* NoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F0B20C691A200F8B5E0 /* NotesDataManager */,
+				1E5C0F1720C691A200F8B5E0 /* NotesPageTypeClass */,
+				1E5C0F0E20C691A200F8B5E0 /* NotesWriteViewClass */,
+				1E5C0F1320C691A200F8B5E0 /* NotesWriteViewController */,
+			);
+			path = NoteBook;
+			sourceTree = "<group>";
+		};
+		1E5C0E5020C6664600F8B5E0 /* ResourceBank */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F0520C6917400F8B5E0 /* LUStudentResourceLibraryViewController.h */,
+				1E5C0F0020C6917400F8B5E0 /* LUStudentResourceLibraryViewController.m */,
+				1E5C0F0120C6917400F8B5E0 /* LUVideoPlayerViewController.h */,
+				1E5C0F0620C6917400F8B5E0 /* LUVideoPlayerViewController.m */,
+				1E5C0F0220C6917400F8B5E0 /* YTPlayerView-iframe-player.html */,
+				1E5C0F0320C6917400F8B5E0 /* YTPlayerView.h */,
+				1E5C0F0420C6917400F8B5E0 /* YTPlayerView.m */,
+			);
+			path = ResourceBank;
+			sourceTree = "<group>";
+		};
+		1E5C0E5120C6664F00F8B5E0 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E7620C6913900F8B5E0 /* images */,
+				1E5C0E9620C6913900F8B5E0 /* LUCoverFlowLayout.h */,
+				1E5C0E9820C6913900F8B5E0 /* LUCoverFlowLayout.m */,
+				1E5C0E9B20C6913900F8B5E0 /* LUStudentTextBookModuleViewController.h */,
+				1E5C0E9520C6913900F8B5E0 /* LUStudentTextBookModuleViewController.m */,
+				1E5C0E9720C6913900F8B5E0 /* LUStudentTextBookViewController.h */,
+				1E5C0E9A20C6913900F8B5E0 /* LUStudentTextBookViewController.m */,
+				1E5C0E9C20C6913900F8B5E0 /* PDF Kit */,
+				1E5C0E9920C6913900F8B5E0 /* photos.json */,
+				1E5C0EC620C6913900F8B5E0 /* Reader.pdf */,
+				1E5C0E7520C6913900F8B5E0 /* YRCoverFlowLayout.h */,
+				1E5C0E7420C6913900F8B5E0 /* YRCoverFlowLayout.m */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		1E5C0E5220C6665E00F8B5E0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E5920C690CD00F8B5E0 /* Icons */,
+				1E5C0E5720C690CD00F8B5E0 /* LUStudentProfileCollectionViewCell.h */,
+				1E5C0E5520C690CD00F8B5E0 /* LUStudentProfileCollectionViewCell.m */,
+				1E5C0E5820C690CD00F8B5E0 /* LUStudentProfileSubjectTableCell.h */,
+				1E5C0E5420C690CD00F8B5E0 /* LUStudentProfileSubjectTableCell.m */,
+				1E5C0E6520C690CE00F8B5E0 /* LUStudentProfileViewController.h */,
+				1E5C0E5620C690CD00F8B5E0 /* LUStudentProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1E5C0E5320C6667E00F8B5E0 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FFA20C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.h */,
+				1E5C0FF720C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.m */,
+				1E5C0FF620C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.h */,
+				1E5C0FF820C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.m */,
+				1E5C0FFC20C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.h */,
+				1E5C0FFB20C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.m */,
+				1E5C0FF920C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.xib */,
+				1E5C0FF420C6AD6200F8B5E0 /* LUStudentNotificationViewController.h */,
+				1E5C0FF520C6AD6200F8B5E0 /* LUStudentNotificationViewController.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		1E5C0E5920C690CD00F8B5E0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E5A20C690CD00F8B5E0 /* StudentProfileIcon.png */,
+				1E5C0E5B20C690CD00F8B5E0 /* NameIcon.png */,
+				1E5C0E5C20C690CD00F8B5E0 /* PhoneIcon.png */,
+				1E5C0E5D20C690CD00F8B5E0 /* GirlIcon.png */,
+				1E5C0E5E20C690CD00F8B5E0 /* BoyIcon.png */,
+				1E5C0E5F20C690CD00F8B5E0 /* DateofBirthIcon.png */,
+				1E5C0E6020C690CD00F8B5E0 /* AddressIcon.png */,
+				1E5C0E6120C690CD00F8B5E0 /* ClassIcon.png */,
+				1E5C0E6220C690CD00F8B5E0 /* ProfileIcon.png */,
+				1E5C0E6320C690CD00F8B5E0 /* GradeIcon.png */,
+				1E5C0E6420C690CD00F8B5E0 /* EmailIcon.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1E5C0E7620C6913900F8B5E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E7720C6913900F8B5E0 /* Reader-Email@2x.png */,
+				1E5C0E7820C6913900F8B5E0 /* Reader-Button-N@3x.png */,
+				1E5C0E7920C6913900F8B5E0 /* Reader-Print.png */,
+				1E5C0E7A20C6913900F8B5E0 /* Reader-Button-N@2x.png */,
+				1E5C0E7B20C6913900F8B5E0 /* Reader-Email@3x.png */,
+				1E5C0E7C20C6913900F8B5E0 /* Reader-Mark-Y@2x.png */,
+				1E5C0E7D20C6913900F8B5E0 /* Reader-Button-H@3x.png */,
+				1E5C0E7E20C6913900F8B5E0 /* Reader-Button-H.png */,
+				1E5C0E7F20C6913900F8B5E0 /* chemistry.jpg */,
+				1E5C0E8020C6913900F8B5E0 /* Reader-Button-N.png */,
+				1E5C0E8120C6913900F8B5E0 /* Reader-Button-H@2x.png */,
+				1E5C0E8220C6913900F8B5E0 /* Reader-Mark-Y@3x.png */,
+				1E5C0E8320C6913900F8B5E0 /* Reader-Print@2x.png */,
+				1E5C0E8420C6913900F8B5E0 /* history.jpg */,
+				1E5C0E8520C6913900F8B5E0 /* Reader-Thumbs.png */,
+				1E5C0E8620C6913900F8B5E0 /* Reader-Thumbs@2x.png */,
+				1E5C0E8720C6913900F8B5E0 /* Reader-Email.png */,
+				1E5C0E8820C6913900F8B5E0 /* Reader-Thumbs@3x.png */,
+				1E5C0E8920C6913900F8B5E0 /* greek.jpg */,
+				1E5C0E8A20C6913900F8B5E0 /* Reader-Print@3x.png */,
+				1E5C0E8B20C6913900F8B5E0 /* science-round-corners.jpg */,
+				1E5C0E8C20C6913900F8B5E0 /* computer.jpg */,
+				1E5C0E8D20C6913900F8B5E0 /* Reader-Mark-Y.png */,
+				1E5C0E8E20C6913900F8B5E0 /* Reader-Mark-N.png */,
+				1E5C0E8F20C6913900F8B5E0 /* Reader-Export@3x.png */,
+				1E5C0E9020C6913900F8B5E0 /* Reader-Mark-N@3x.png */,
+				1E5C0E9120C6913900F8B5E0 /* Reader-Export.png */,
+				1E5C0E9220C6913900F8B5E0 /* Reader-Mark-N@2x.png */,
+				1E5C0E9320C6913900F8B5E0 /* Reader-Export@2x.png */,
+				1E5C0E9420C6913900F8B5E0 /* english.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1E5C0E9C20C6913900F8B5E0 /* PDF Kit */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0E9D20C6913900F8B5E0 /* ReaderContentTile.m */,
+				1E5C0E9E20C6913900F8B5E0 /* ThumbsViewController.h */,
+				1E5C0E9F20C6913900F8B5E0 /* UIXToolbarView.m */,
+				1E5C0EA020C6913900F8B5E0 /* ReaderThumbsView.h */,
+				1E5C0EA120C6913900F8B5E0 /* ReaderThumbCache.h */,
+				1E5C0EA220C6913900F8B5E0 /* ReaderDocumentOutline.h */,
+				1E5C0EA320C6913900F8B5E0 /* ReaderThumbQueue.m */,
+				1E5C0EA420C6913900F8B5E0 /* ReaderContentPage.m */,
+				1E5C0EA520C6913900F8B5E0 /* ReaderConstants.h */,
+				1E5C0EA620C6913900F8B5E0 /* ReaderThumbRender.m */,
+				1E5C0EA720C6913900F8B5E0 /* ReaderThumbRequest.h */,
+				1E5C0EA820C6913900F8B5E0 /* CGPDFDocument.m */,
+				1E5C0EA920C6913900F8B5E0 /* ReaderContentView.m */,
+				1E5C0EAA20C6913900F8B5E0 /* ReaderViewController.m */,
+				1E5C0EAB20C6913900F8B5E0 /* ReaderThumbFetch.m */,
+				1E5C0EAC20C6913900F8B5E0 /* ThumbsMainToolbar.h */,
+				1E5C0EAD20C6913900F8B5E0 /* ReaderMainPagebar.h */,
+				1E5C0EAE20C6913900F8B5E0 /* ReaderThumbView.m */,
+				1E5C0EAF20C6913900F8B5E0 /* ReaderMainToolbar.m */,
+				1E5C0EB020C6913900F8B5E0 /* ReaderDocument.m */,
+				1E5C0EB120C6913900F8B5E0 /* photos.json */,
+				1E5C0EB220C6913900F8B5E0 /* ReaderDocumentOutline.m */,
+				1E5C0EB320C6913900F8B5E0 /* ReaderThumbCache.m */,
+				1E5C0EB420C6913900F8B5E0 /* UIXToolbarView.h */,
+				1E5C0EB520C6913900F8B5E0 /* ReaderThumbsView.m */,
+				1E5C0EB620C6913900F8B5E0 /* ReaderContentTile.h */,
+				1E5C0EB720C6913900F8B5E0 /* ThumbsViewController.m */,
+				1E5C0EB820C6913900F8B5E0 /* CGPDFDocument.h */,
+				1E5C0EB920C6913900F8B5E0 /* ReaderThumbRequest.m */,
+				1E5C0EBA20C6913900F8B5E0 /* ReaderThumbRender.h */,
+				1E5C0EBB20C6913900F8B5E0 /* ReaderConstants.m */,
+				1E5C0EBC20C6913900F8B5E0 /* ReaderContentPage.h */,
+				1E5C0EBD20C6913900F8B5E0 /* ReaderThumbQueue.h */,
+				1E5C0EBE20C6913900F8B5E0 /* ReaderThumbFetch.h */,
+				1E5C0EBF20C6913900F8B5E0 /* ReaderViewController.h */,
+				1E5C0EC020C6913900F8B5E0 /* ReaderContentView.h */,
+				1E5C0EC120C6913900F8B5E0 /* ReaderDocument.h */,
+				1E5C0EC220C6913900F8B5E0 /* ReaderThumbView.h */,
+				1E5C0EC320C6913900F8B5E0 /* ReaderMainToolbar.h */,
+				1E5C0EC420C6913900F8B5E0 /* ThumbsMainToolbar.m */,
+				1E5C0EC520C6913900F8B5E0 /* ReaderMainPagebar.m */,
+			);
+			path = "PDF Kit";
+			sourceTree = "<group>";
+		};
+		1E5C0F0B20C691A200F8B5E0 /* NotesDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F0C20C691A200F8B5E0 /* LUNotesMainDataManager.h */,
+				1E5C0F0D20C691A200F8B5E0 /* LUNotesMainDataManager.m */,
+			);
+			path = NotesDataManager;
+			sourceTree = "<group>";
+		};
+		1E5C0F0E20C691A200F8B5E0 /* NotesWriteViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F0F20C691A200F8B5E0 /* LUNotesDrawingView.h */,
+				1E5C0F1020C691A200F8B5E0 /* LUNotesDrawingTool.m */,
+				1E5C0F1120C691A200F8B5E0 /* LUNotesDrawingView.m */,
+				1E5C0F1220C691A200F8B5E0 /* LUNotesDrawingTool.h */,
+			);
+			path = NotesWriteViewClass;
+			sourceTree = "<group>";
+		};
+		1E5C0F1320C691A200F8B5E0 /* NotesWriteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F1420C691A200F8B5E0 /* LUWriteNotesViewController.m */,
+				1E5C0F1520C691A200F8B5E0 /* ColorWheel.png */,
+				1E5C0F1620C691A200F8B5E0 /* LUWriteNotesViewController.h */,
+			);
+			path = NotesWriteViewController;
+			sourceTree = "<group>";
+		};
+		1E5C0F1720C691A200F8B5E0 /* NotesPageTypeClass */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F1820C691A200F8B5E0 /* LUPageType.h */,
+				1E5C0F1920C691A200F8B5E0 /* LUPageType.m */,
+			);
+			path = NotesPageTypeClass;
+			sourceTree = "<group>";
+		};
+		1E5C0F2120C691C900F8B5E0 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F2220C691C900F8B5E0 /* redo-Gray.png */,
+				1E5C0F2320C691C900F8B5E0 /* arrowright.png */,
+				1E5C0F2420C691C900F8B5E0 /* submittedStatus.png */,
+				1E5C0F2520C691C900F8B5E0 /* rejected-gray.png */,
+				1E5C0F2620C691C900F8B5E0 /* DRAW.png */,
+				1E5C0F2720C691C900F8B5E0 /* approved@2x.png */,
+				1E5C0F2820C691C900F8B5E0 /* submit.png */,
+				1E5C0F2920C691C900F8B5E0 /* rejected@2x.png */,
+				1E5C0F2A20C691C900F8B5E0 /* redoStatus.png */,
+				1E5C0F2B20C691C900F8B5E0 /* approved-gray.png */,
+				1E5C0F2C20C691C900F8B5E0 /* ATTACH.png */,
+				1E5C0F2D20C691C900F8B5E0 /* approvedStatus.png */,
+				1E5C0F2E20C691C900F8B5E0 /* submitted-gray.png */,
+				1E5C0F2F20C691C900F8B5E0 /* GREEN-Submit.png */,
+				1E5C0F3020C691C900F8B5E0 /* submitted@2x.png */,
+				1E5C0F3120C691C900F8B5E0 /* rejectedStatus.png */,
+				1E5C0F3220C691C900F8B5E0 /* WRITE.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		1E5C0F3320C691C900F8B5E0 /* AssignmentListTable */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F3420C691C900F8B5E0 /* LUAssignmentCell.h */,
+				1E5C0F3520C691C900F8B5E0 /* LUAssignmentCell.m */,
+			);
+			path = AssignmentListTable;
+			sourceTree = "<group>";
+		};
+		1E5C0F3720C691C900F8B5E0 /* AssignmentCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F3820C691C900F8B5E0 /* LUAssignmentSubmitCell.m */,
+				1E5C0F3920C691C900F8B5E0 /* LUAssignmentSubmitCell.h */,
+			);
+			path = AssignmentCollectionView;
+			sourceTree = "<group>";
+		};
+		1E5C0F6B20C6924800F8B5E0 /* OnlineExamControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F6C20C6924800F8B5E0 /* LUOnlineExamDateFormatter.h */,
+				1E5C0F6D20C6924800F8B5E0 /* LUOnlineExamDateFormatter.m */,
+			);
+			path = OnlineExamControllers;
+			sourceTree = "<group>";
+		};
+		1E5C0F6E20C6924800F8B5E0 /* OnlineExamViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F6F20C6924800F8B5E0 /* LUMatchQuestionCell.h */,
+				1E5C0F7020C6924800F8B5E0 /* LUMatchTheFollowingViewController.m */,
+				1E5C0F7120C6924800F8B5E0 /* LUFillInTheBlankViewController.h */,
+				1E5C0F7220C6924800F8B5E0 /* LUOnlineExamQuesionsController.m */,
+				1E5C0F7320C6924800F8B5E0 /* LUStudentOnlineExamViewController.m */,
+				1E5C0F7420C6924800F8B5E0 /* LUOptionalQuestionsViewController.m */,
+				1E5C0F7520C6924800F8B5E0 /* LUMatchTheFollowingViewController.h */,
+				1E5C0F7620C6924800F8B5E0 /* LUMatchQuestionCell.m */,
+				1E5C0F7720C6924800F8B5E0 /* LUFillInTheBlankViewController.m */,
+				1E5C0F7820C6924800F8B5E0 /* LUStudentOnlineExamViewController.h */,
+				1E5C0F7920C6924800F8B5E0 /* LUOnlineExamQuesionsController.h */,
+				1E5C0F7A20C6924800F8B5E0 /* optionalquestionPList.plist */,
+				1E5C0F7B20C6924800F8B5E0 /* LUOptionalQuestionsViewController.h */,
+			);
+			path = OnlineExamViewControllers;
+			sourceTree = "<group>";
+		};
+		1E5C0F7C20C6924800F8B5E0 /* LUExamDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F7D20C6924800F8B5E0 /* LUExamDataManager.h */,
+				1E5C0F7E20C6924800F8B5E0 /* LUExamDataManager.m */,
+			);
+			path = LUExamDataManager;
+			sourceTree = "<group>";
+		};
+		1E5C0F7F20C6924800F8B5E0 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F8020C6924800F8B5E0 /* examWrite.png */,
+				1E5C0F8120C6924800F8B5E0 /* green-write.png */,
+				1E5C0F8220C6924800F8B5E0 /* radio-on.png */,
+				1E5C0F8320C6924800F8B5E0 /* Complete-exam.png */,
+				1E5C0F8420C6924800F8B5E0 /* view-edit.png */,
+				1E5C0F8520C6924800F8B5E0 /* radio-off.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		1E5C0F8620C6924800F8B5E0 /* LUOptionalQuestionDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F8720C6924800F8B5E0 /* LUOptionalQuestionDataManager.m */,
+				1E5C0F8820C6924800F8B5E0 /* LUOptionalQuestionDataManager.h */,
+			);
+			path = LUOptionalQuestionDataManager;
+			sourceTree = "<group>";
+		};
+		1E5C0F9920C6926A00F8B5E0 /* DrawingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F9A20C6926A00F8B5E0 /* LUDrawingCell.h */,
+				1E5C0F9B20C6926A00F8B5E0 /* LUDrawingViewController.h */,
+				1E5C0F9C20C6926A00F8B5E0 /* CGStretchView.m */,
+				1E5C0F9D20C6926A00F8B5E0 /* LUStudentMainDrawingViewController.h */,
+				1E5C0F9E20C6926A00F8B5E0 /* Shapes */,
+				1E5C0FAF20C6926A00F8B5E0 /* LUDrawingCell.m */,
+				1E5C0FB020C6926A00F8B5E0 /* LUDrawingViewController.m */,
+				1E5C0FB120C6926A00F8B5E0 /* ColorFill */,
+				1E5C0FB620C6926A00F8B5E0 /* CGStretchView.h */,
+				1E5C0FB720C6926A00F8B5E0 /* LUStudentMainDrawingViewController.m */,
+			);
+			path = DrawingViewController;
+			sourceTree = "<group>";
+		};
+		1E5C0F9E20C6926A00F8B5E0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0F9F20C6926A00F8B5E0 /* gray.png */,
+				1E5C0FA020C6926A00F8B5E0 /* Vector8.png */,
+				1E5C0FA120C6926A00F8B5E0 /* Vector9.png */,
+				1E5C0FA220C6926A00F8B5E0 /* sq.png */,
+				1E5C0FA320C6926A00F8B5E0 /* circle.png */,
+				1E5C0FA420C6926A00F8B5E0 /* rect.png */,
+				1E5C0FA520C6926A00F8B5E0 /* Vector10.png */,
+				1E5C0FA620C6926A00F8B5E0 /* diamond.png */,
+				1E5C0FA720C6926A00F8B5E0 /* Vector4.png */,
+				1E5C0FA820C6926A00F8B5E0 /* Vector5.png */,
+				1E5C0FA920C6926A00F8B5E0 /* Vector7.png */,
+				1E5C0FAA20C6926A00F8B5E0 /* Vector6.png */,
+				1E5C0FAB20C6926A00F8B5E0 /* Vector2.png */,
+				1E5C0FAC20C6926A00F8B5E0 /* square.png */,
+				1E5C0FAD20C6926A00F8B5E0 /* Vector3.png */,
+				1E5C0FAE20C6926A00F8B5E0 /* Vector1.png */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		1E5C0FB120C6926A00F8B5E0 /* ColorFill */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FB220C6926A00F8B5E0 /* LinkedListStack.h */,
+				1E5C0FB320C6926A00F8B5E0 /* UIImage+FloodFill.h */,
+				1E5C0FB420C6926A00F8B5E0 /* LinkedListStack.m */,
+				1E5C0FB520C6926A00F8B5E0 /* UIImage+FloodFill.m */,
+			);
+			path = ColorFill;
+			sourceTree = "<group>";
+		};
+		1E5C0FB820C6926B00F8B5E0 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FB920C6926B00F8B5E0 /* DTColorPickerImageView.h */,
+				1E5C0FBA20C6926B00F8B5E0 /* UIImage+ColorPicker.m */,
+				1E5C0FBB20C6926B00F8B5E0 /* UIImage+ColorPicker.h */,
+				1E5C0FBC20C6926B00F8B5E0 /* DTColorPickerImageView.m */,
+				1E5C0FBD20C6926B00F8B5E0 /* fontcolor_bar.png */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		1E5C0FBE20C6926B00F8B5E0 /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FBF20C6926B00F8B5E0 /* NLImageCropperView.m */,
+				1E5C0FC020C6926B00F8B5E0 /* gray.png */,
+				1E5C0FC120C6926B00F8B5E0 /* NLCropViewLayer.h */,
+				1E5C0FC220C6926B00F8B5E0 /* NLImageCropperView.h */,
+				1E5C0FC320C6926B00F8B5E0 /* NLCropViewLayer.m */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		1E5C0FC420C6926B00F8B5E0 /* RulerViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FC520C6926B00F8B5E0 /* ruler.png */,
+				1E5C0FC620C6926B00F8B5E0 /* LURulerView.h */,
+				1E5C0FC720C6926B00F8B5E0 /* LURulerView.m */,
+			);
+			path = RulerViewClass;
+			sourceTree = "<group>";
+		};
+		1E5C0FC820C6926B00F8B5E0 /* DrawingDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C0FC920C6926B00F8B5E0 /* DrawingDataManager.h */,
+				1E5C0FCA20C6926B00F8B5E0 /* DrawingDataManager.m */,
+			);
+			path = DrawingDataManager;
+			sourceTree = "<group>";
+		};
+		1E5C100220C7A15600F8B5E0 /* LUReusableShelf */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C100320C7A15600F8B5E0 /* LUShelfListViewController */,
+				1E5C101120C7A15600F8B5E0 /* NotesJSON */,
+			);
+			path = LUReusableShelf;
+			sourceTree = "<group>";
+		};
+		1E5C100320C7A15600F8B5E0 /* LUShelfListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C100420C7A15600F8B5E0 /* LUShelfCellTableViewCell.h */,
+				1E5C100520C7A15600F8B5E0 /* LUShelfCollectionViewCell.xib */,
+				1E5C100620C7A15600F8B5E0 /* LUShelfContainerCellView.m */,
+				1E5C100720C7A15600F8B5E0 /*  JSON File */,
+				1E5C100820C7A15600F8B5E0 /* LUShelfListViewController.h */,
+				1E5C100920C7A15600F8B5E0 /* LUShelfCollectionViewCell.m */,
+				1E5C100A20C7A15600F8B5E0 /* Notes.json */,
+				1E5C100B20C7A15600F8B5E0 /* LUShelfContainerCellView.h */,
+				1E5C100C20C7A15600F8B5E0 /* LUShelfCellTableViewCell.m */,
+				1E5C100D20C7A15600F8B5E0 /* Note.File */,
+				1E5C100E20C7A15600F8B5E0 /* LUShelfListViewController.m */,
+				1E5C100F20C7A15600F8B5E0 /* LUShelfContainerCellView.xib */,
+				1E5C101020C7A15600F8B5E0 /* LUShelfCollectionViewCell.h */,
+			);
+			path = LUShelfListViewController;
+			sourceTree = "<group>";
+		};
+		1E5C104720C7A80B00F8B5E0 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C104820C7A80B00F8B5E0 /* LUActivityIndicator.m */,
+				1E5C104920C7A80B00F8B5E0 /* LUActivityIndicator.h */,
+				1E5C104A20C7A80B00F8B5E0 /* Icons */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		1E5C104A20C7A80B00F8B5E0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C104B20C7A80B00F8B5E0 /* a1.png */,
+				1E5C104C20C7A80B00F8B5E0 /* a3.png */,
+				1E5C104D20C7A80B00F8B5E0 /* a2.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1E5C104E20C7A80B00F8B5E0 /* AlertPanel */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C104F20C7A80B00F8B5E0 /* LUAlertPopup.m */,
+				1E5C105020C7A80B00F8B5E0 /* Icons */,
+				1E5C105320C7A80B00F8B5E0 /* LUAlertPopup.h */,
+			);
+			path = AlertPanel;
+			sourceTree = "<group>";
+		};
+		1E5C105020C7A80B00F8B5E0 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C105120C7A80B00F8B5E0 /* alertBG2.png */,
+				1E5C105220C7A80B00F8B5E0 /* alertBG.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		1E5C105B20C7A87100F8B5E0 /* LULogin */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C105D20C7A8C500F8B5E0 /* LUReachability.h */,
+				1E5C105C20C7A8C500F8B5E0 /* LUReachability.m */,
+			);
+			path = LULogin;
+			sourceTree = "<group>";
+		};
+		1E5C143720C7F80200F8B5E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C144E20C7F88500F8B5E0 /* libsqlite3.0.tbd */,
+				1E5C144820C7F85D00F8B5E0 /* SystemConfiguration.framework */,
+				1E5C144620C7F84E00F8B5E0 /* ImageIO.framework */,
+				1E5C144020C7F83200F8B5E0 /* MessageUI.framework */,
+				1E5C143E20C7F82600F8B5E0 /* QuartzCore.framework */,
+				1E5C143A20C7F80A00F8B5E0 /* CoreGraphics.framework */,
+				1E5C143820C7F80300F8B5E0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E5C145F20C7F93300F8B5E0 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C146020C7F93300F8B5E0 /* JSONModelTransformations */,
+				1E5C146520C7F93300F8B5E0 /* module.modulemap */,
+				1E5C146620C7F93300F8B5E0 /* JSONModel */,
+				1E5C146D20C7F93300F8B5E0 /* Info.plist */,
+				1E5C146E20C7F93300F8B5E0 /* JSONModelLib.h */,
+				1E5C146F20C7F93300F8B5E0 /* JSONModelNetworking */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		1E5C146020C7F93300F8B5E0 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C146120C7F93300F8B5E0 /* JSONValueTransformer.m */,
+				1E5C146220C7F93300F8B5E0 /* JSONKeyMapper.h */,
+				1E5C146320C7F93300F8B5E0 /* JSONValueTransformer.h */,
+				1E5C146420C7F93300F8B5E0 /* JSONKeyMapper.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		1E5C146620C7F93300F8B5E0 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C146720C7F93300F8B5E0 /* JSONModel.m */,
+				1E5C146820C7F93300F8B5E0 /* JSONModelError.m */,
+				1E5C146920C7F93300F8B5E0 /* JSONModelClassProperty.h */,
+				1E5C146A20C7F93300F8B5E0 /* JSONModel.h */,
+				1E5C146B20C7F93300F8B5E0 /* JSONModelClassProperty.m */,
+				1E5C146C20C7F93300F8B5E0 /* JSONModelError.h */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		1E5C146F20C7F93300F8B5E0 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C147020C7F93300F8B5E0 /* JSONHTTPClient.m */,
+				1E5C147120C7F93300F8B5E0 /* JSONAPI.m */,
+				1E5C147220C7F93300F8B5E0 /* JSONModel+networking.h */,
+				1E5C147320C7F93300F8B5E0 /* JSONHTTPClient.h */,
+				1E5C147420C7F93300F8B5E0 /* JSONAPI.h */,
+				1E5C147520C7F93300F8B5E0 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		1E5C147720C7F93300F8B5E0 /* PDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				1E5C147820C7F93300F8B5E0 /* PopoverController.h */,
+				1E5C147920C7F93300F8B5E0 /* ThumbsViewController.h */,
+				1E5C147A20C7F93300F8B5E0 /* MainPagebar.h */,
+				1E5C147B20C7F93300F8B5E0 /* PopoverView.h */,
+				1E5C147C20C7F93300F8B5E0 /* UIXToolbarView.m */,
+				1E5C147D20C7F93300F8B5E0 /* Constants.m */,
+				1E5C147E20C7F93300F8B5E0 /* ARCMacros.h */,
+				1E5C147F20C7F93300F8B5E0 /* MainToolbar.m */,
+				1E5C148020C7F93300F8B5E0 /* DrawToolbar.h */,
+				1E5C148120C7F93300F8B5E0 /* DataManager.h */,
+				1E5C148220C7F93300F8B5E0 /* ContentView.m */,
+				1E5C148320C7F93300F8B5E0 /* Document.m */,
+				1E5C148420C7F93300F8B5E0 /* ThumbFetch.m */,
+				1E5C148520C7F93300F8B5E0 /* DrawingView.m */,
+				1E5C148620C7F93300F8B5E0 /* CGPDFDocument.m */,
+				1E5C148720C7F93300F8B5E0 /* ThumbView.h */,
+				1E5C148820C7F93300F8B5E0 /* Annotation.m */,
+				1E5C148920C7F93300F8B5E0 /* DocumentOutline.m */,
+				1E5C148A20C7F93300F8B5E0 /* ThumbQueue.m */,
+				1E5C148B20C7F93300F8B5E0 /* SourceColorView.m */,
+				1E5C148C20C7F93300F8B5E0 /* ContentPage.m */,
+				1E5C148D20C7F93300F8B5E0 /* File.h */,
+				1E5C148E20C7F93300F8B5E0 /* TouchView.m */,
+				1E5C148F20C7F93300F8B5E0 /* PropertyController.h */,
+				1E5C149020C7F93300F8B5E0 /* ThumbRender.m */,
+				1E5C149120C7F93300F8B5E0 /* ThumbsMainToolbar.h */,
+				1E5C149220C7F93300F8B5E0 /* ViewController.m */,
+				1E5C149320C7F93300F8B5E0 /* DrawingTools.h */,
+				1E5C149420C7F93300F8B5E0 /* ContentTile.m */,
+				1E5C149520C7F93300F8B5E0 /* ThumbCache.h */,
+				1E5C149620C7F93300F8B5E0 /* ThumbsView.h */,
+				1E5C149720C7F93300F8B5E0 /* ThumbRequest.m */,
+				1E5C149820C7F93300F8B5E0 /* MainToolbar.h */,
+				1E5C149920C7F93300F8B5E0 /* Constants.h */,
+				1E5C149A20C7F93300F8B5E0 /* UIXToolbarView.h */,
+				1E5C149B20C7F93300F8B5E0 /* MainPagebar.m */,
+				1E5C149C20C7F93300F8B5E0 /* PopoverView.m */,
+				1E5C149D20C7F93300F8B5E0 /* PopoverController.m */,
+				1E5C149E20C7F93300F8B5E0 /* Kit.h */,
+				1E5C149F20C7F93300F8B5E0 /* ThumbsViewController.m */,
+				1E5C14A020C7F93300F8B5E0 /* CGPDFDocument.h */,
+				1E5C14A120C7F93300F8B5E0 /* DrawingView.h */,
+				1E5C14A220C7F93300F8B5E0 /* ThumbFetch.h */,
+				1E5C14A320C7F93300F8B5E0 /* Document.h */,
+				1E5C14A420C7F93300F8B5E0 /* ContentView.h */,
+				1E5C14A520C7F93300F8B5E0 /* DataManager.m */,
+				1E5C14A620C7F93300F8B5E0 /* DrawToolbar.m */,
+				1E5C14A720C7F93300F8B5E0 /* ThumbRender.h */,
+				1E5C14A820C7F93300F8B5E0 /* PropertyController.m */,
+				1E5C14A920C7F93300F8B5E0 /* TouchView.h */,
+				1E5C14AA20C7F93300F8B5E0 /* File.m */,
+				1E5C14AB20C7F93300F8B5E0 /* ContentPage.h */,
+				1E5C14AC20C7F93300F8B5E0 /* SourceColorView.h */,
+				1E5C14AD20C7F93300F8B5E0 /* DocumentOutline.h */,
+				1E5C14AE20C7F93300F8B5E0 /* ThumbQueue.h */,
+				1E5C14AF20C7F93300F8B5E0 /* ThumbView.m */,
+				1E5C14B020C7F93300F8B5E0 /* Annotation.h */,
+				1E5C14B120C7F93300F8B5E0 /* ThumbRequest.h */,
+				1E5C14B220C7F93300F8B5E0 /* ThumbsView.m */,
+				1E5C14B320C7F93300F8B5E0 /* ThumbCache.m */,
+				1E5C14B420C7F93300F8B5E0 /* Model.xcdatamodeld */,
+				1E5C14B620C7F93300F8B5E0 /* ContentTile.h */,
+				1E5C14B720C7F93300F8B5E0 /* DrawingTools.m */,
+				1E5C14B820C7F93300F8B5E0 /* ViewController.h */,
+				1E5C14B920C7F93300F8B5E0 /* ThumbsMainToolbar.m */,
+			);
+			path = PDFKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5C0E0520C663B800F8B5E0 /* LUStudent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5C0E3220C663BA00F8B5E0 /* Build configuration list for PBXNativeTarget "LUStudent" */;
+			buildPhases = (
+				1E5C0E0220C663B800F8B5E0 /* Sources */,
+				1E5C0E0320C663B800F8B5E0 /* Frameworks */,
+				1E5C0E0420C663B800F8B5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUStudent;
+			productName = LUStudent;
+			productReference = 1E5C0E0620C663B800F8B5E0 /* LUStudent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E5C0E1D20C663BA00F8B5E0 /* LUStudentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5C0E3520C663BA00F8B5E0 /* Build configuration list for PBXNativeTarget "LUStudentTests" */;
+			buildPhases = (
+				1E5C0E1A20C663BA00F8B5E0 /* Sources */,
+				1E5C0E1B20C663BA00F8B5E0 /* Frameworks */,
+				1E5C0E1C20C663BA00F8B5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5C0E2020C663BA00F8B5E0 /* PBXTargetDependency */,
+			);
+			name = LUStudentTests;
+			productName = LUStudentTests;
+			productReference = 1E5C0E1E20C663BA00F8B5E0 /* LUStudentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E5C0E2820C663BA00F8B5E0 /* LUStudentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5C0E3820C663BA00F8B5E0 /* Build configuration list for PBXNativeTarget "LUStudentUITests" */;
+			buildPhases = (
+				1E5C0E2520C663BA00F8B5E0 /* Sources */,
+				1E5C0E2620C663BA00F8B5E0 /* Frameworks */,
+				1E5C0E2720C663BA00F8B5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5C0E2B20C663BA00F8B5E0 /* PBXTargetDependency */,
+			);
+			name = LUStudentUITests;
+			productName = LUStudentUITests;
+			productReference = 1E5C0E2920C663BA00F8B5E0 /* LUStudentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5C0DFE20C663B800F8B5E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Set Infotech";
+				TargetAttributes = {
+					1E5C0E0520C663B800F8B5E0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					1E5C0E1D20C663BA00F8B5E0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 1E5C0E0520C663B800F8B5E0;
+					};
+					1E5C0E2820C663BA00F8B5E0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 1E5C0E0520C663B800F8B5E0;
+					};
+				};
+			};
+			buildConfigurationList = 1E5C0E0120C663B800F8B5E0 /* Build configuration list for PBXProject "LUStudent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E5C0DFD20C663B800F8B5E0;
+			productRefGroup = 1E5C0E0720C663B800F8B5E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5C0E0520C663B800F8B5E0 /* LUStudent */,
+				1E5C0E1D20C663BA00F8B5E0 /* LUStudentTests */,
+				1E5C0E2820C663BA00F8B5E0 /* LUStudentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5C0E0420C663B800F8B5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5C0E6E20C690CE00F8B5E0 /* DateofBirthIcon.png in Resources */,
+				1E5C0FD220C6926B00F8B5E0 /* Vector10.png in Resources */,
+				1E5C101420C7A15600F8B5E0 /*  JSON File in Resources */,
+				1E5C0F4020C691C900F8B5E0 /* submit.png in Resources */,
+				1E5C0FD820C6926B00F8B5E0 /* Vector2.png in Resources */,
+				1E5C0FCD20C6926B00F8B5E0 /* Vector8.png in Resources */,
+				1E5C101A20C7A15600F8B5E0 /* LUShelfContainerCellView.xib in Resources */,
+				1E5C0EE020C6913900F8B5E0 /* Reader-Export@3x.png in Resources */,
+				1E5C0F0820C6917400F8B5E0 /* YTPlayerView-iframe-player.html in Resources */,
+				1E5C0E1620C663BA00F8B5E0 /* LaunchScreen.storyboard in Resources */,
+				1E5C101220C7A15600F8B5E0 /* LUShelfCollectionViewCell.xib in Resources */,
+				1E5C0F4220C691C900F8B5E0 /* redoStatus.png in Resources */,
+				1E5C0FDB20C6926B00F8B5E0 /* Vector1.png in Resources */,
+				1E5C0FE320C6926B00F8B5E0 /* fontcolor_bar.png in Resources */,
+				1E5C103520C7A4DA00F8B5E0 /* StudentBook.png in Resources */,
+				1E5C0ED020C6913900F8B5E0 /* chemistry.jpg in Resources */,
+				1E5C0ECB20C6913900F8B5E0 /* Reader-Button-N@2x.png in Resources */,
+				1E5C0ED420C6913900F8B5E0 /* Reader-Print@2x.png in Resources */,
+				1E5C0F9020C6924800F8B5E0 /* optionalquestionPList.plist in Resources */,
+				1E5C0EE820C6913900F8B5E0 /* photos.json in Resources */,
+				1E5C0ED920C6913900F8B5E0 /* Reader-Thumbs@3x.png in Resources */,
+				1E5C0F4520C691C900F8B5E0 /* approvedStatus.png in Resources */,
+				1E5C0FD920C6926B00F8B5E0 /* square.png in Resources */,
+				1E5C0F6220C6921900F8B5E0 /* LUTimeTableDetailViewController.xib in Resources */,
+				1E5C0F3B20C691C900F8B5E0 /* arrowright.png in Resources */,
+				1E5C104320C7A4DA00F8B5E0 /* StudentTimeTable.png in Resources */,
+				1E5C105620C7A80B00F8B5E0 /* a3.png in Resources */,
+				1E5C0EDC20C6913900F8B5E0 /* science-round-corners.jpg in Resources */,
+				1E5C105720C7A80B00F8B5E0 /* a2.png in Resources */,
+				1E5C0FE720C6926B00F8B5E0 /* ruler.png in Resources */,
+				1E5C100020C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.xib in Resources */,
+				1E5C103E20C7A4DA00F8B5E0 /* StudentDrawing.png in Resources */,
+				1E5C0EFF20C6913900F8B5E0 /* Reader.pdf in Resources */,
+				1E5C0EE220C6913900F8B5E0 /* Reader-Export.png in Resources */,
+				1E5C0FDA20C6926B00F8B5E0 /* Vector3.png in Resources */,
+				1E5C0EE320C6913900F8B5E0 /* Reader-Mark-N@2x.png in Resources */,
+				1E5C0EE120C6913900F8B5E0 /* Reader-Mark-N@3x.png in Resources */,
+				1E5C0FD320C6926B00F8B5E0 /* diamond.png in Resources */,
+				1E5C0F9520C6924800F8B5E0 /* Complete-exam.png in Resources */,
+				1E5C0EDE20C6913900F8B5E0 /* Reader-Mark-Y.png in Resources */,
+				1E5C14C620C7F93400F8B5E0 /* Assets.bundle in Resources */,
+				1E5C103320C7A4DA00F8B5E0 /* TeachersAssignment.png in Resources */,
+				1E5C101820C7A15600F8B5E0 /* Note.File in Resources */,
+				1E5C103D20C7A4DA00F8B5E0 /* StudentResourceBank.png in Resources */,
+				1E5C0FD420C6926B00F8B5E0 /* Vector4.png in Resources */,
+				1E5C0ED620C6913900F8B5E0 /* Reader-Thumbs.png in Resources */,
+				1E5C0ED720C6913900F8B5E0 /* Reader-Thumbs@2x.png in Resources */,
+				1E5C101620C7A15600F8B5E0 /* Notes.json in Resources */,
+				1E5C104120C7A4DA00F8B5E0 /* TeachersDraw.png in Resources */,
+				1E5C0EDB20C6913900F8B5E0 /* Reader-Print@3x.png in Resources */,
+				1E5C105A20C7A80B00F8B5E0 /* alertBG.png in Resources */,
+				1E5C0F3D20C691C900F8B5E0 /* rejected-gray.png in Resources */,
+				1E5C103A20C7A4DA00F8B5E0 /* TeachersNotes.png in Resources */,
+				1E5C105520C7A80B00F8B5E0 /* a1.png in Resources */,
+				1E5C0ED220C6913900F8B5E0 /* Reader-Button-H@2x.png in Resources */,
+				1E5C14E720C7F93400F8B5E0 /* VVDocumenter-Xcode.xcplugin in Resources */,
+				1E5C0EE520C6913900F8B5E0 /* english.jpg in Resources */,
+				1E5C0EF620C6913900F8B5E0 /* photos.json in Resources */,
+				1E5C0F4920C691C900F8B5E0 /* rejectedStatus.png in Resources */,
+				1E5C103820C7A4DA00F8B5E0 /* StudentGraphMath.png in Resources */,
+				1E5C0F4720C691C900F8B5E0 /* GREEN-Submit.png in Resources */,
+				1E5C0E6D20C690CE00F8B5E0 /* BoyIcon.png in Resources */,
+				1E5C14C220C7F93400F8B5E0 /* Info.plist in Resources */,
+				1E5C103F20C7A4DA00F8B5E0 /* StudentLibrary.png in Resources */,
+				1E5C0F6A20C6921900F8B5E0 /* LUHeaderView.xib in Resources */,
+				1E5C0F9420C6924800F8B5E0 /* radio-on.png in Resources */,
+				1E5C0E7020C690CE00F8B5E0 /* ClassIcon.png in Resources */,
+				1E5C0F9720C6924800F8B5E0 /* radio-off.png in Resources */,
+				1E5C0F4120C691C900F8B5E0 /* rejected@2x.png in Resources */,
+				1E5C0E7120C690CE00F8B5E0 /* ProfileIcon.png in Resources */,
+				1E5C0ECE20C6913900F8B5E0 /* Reader-Button-H@3x.png in Resources */,
+				1E5C103920C7A4DA00F8B5E0 /* TeachersLibrary.png in Resources */,
+				1E5C0F4A20C691C900F8B5E0 /* WRITE.png in Resources */,
+				1E5C103B20C7A4DA00F8B5E0 /* StudentNote.png in Resources */,
+				1E5C103420C7A4DA00F8B5E0 /* StudentOnlineExam.png in Resources */,
+				1E5C0F3E20C691C900F8B5E0 /* DRAW.png in Resources */,
+				1E5C0ECD20C6913900F8B5E0 /* Reader-Mark-Y@2x.png in Resources */,
+				1E5C103220C7A4DA00F8B5E0 /* TeacherResourceBank.png in Resources */,
+				1E5C103020C7A4DA00F8B5E0 /* TeacherOnlineExam.png in Resources */,
+				1E5C0ECC20C6913900F8B5E0 /* Reader-Email@3x.png in Resources */,
+				1E5C104220C7A4DA00F8B5E0 /* StudentAssignment.png in Resources */,
+				1E5C0EDA20C6913900F8B5E0 /* greek.jpg in Resources */,
+				1E5C0E6B20C690CE00F8B5E0 /* PhoneIcon.png in Resources */,
+				1E5C0E6A20C690CE00F8B5E0 /* NameIcon.png in Resources */,
+				1E5C101B20C7A15600F8B5E0 /* NotesJSON in Resources */,
+				1E5C0FD520C6926B00F8B5E0 /* Vector5.png in Resources */,
+				1E5C0FD020C6926B00F8B5E0 /* circle.png in Resources */,
+				1E5C0F3C20C691C900F8B5E0 /* submittedStatus.png in Resources */,
+				1E5C0ED820C6913900F8B5E0 /* Reader-Email.png in Resources */,
+				1E5C0E1320C663BA00F8B5E0 /* Assets.xcassets in Resources */,
+				1E5C0F9220C6924800F8B5E0 /* examWrite.png in Resources */,
+				1E5C0FCC20C6926B00F8B5E0 /* gray.png in Resources */,
+				1E5C0E7220C690CE00F8B5E0 /* GradeIcon.png in Resources */,
+				1E5C0ED320C6913900F8B5E0 /* Reader-Mark-Y@3x.png in Resources */,
+				1E5C0E7320C690CE00F8B5E0 /* EmailIcon.png in Resources */,
+				1E5C0FD120C6926B00F8B5E0 /* rect.png in Resources */,
+				1E5C103620C7A4DA00F8B5E0 /* TeachersEmail.png in Resources */,
+				1E5C0F4420C691C900F8B5E0 /* ATTACH.png in Resources */,
+				1E5C0F1E20C691A200F8B5E0 /* ColorWheel.png in Resources */,
+				1E5C0E6920C690CE00F8B5E0 /* StudentProfileIcon.png in Resources */,
+				1E5C0FCE20C6926B00F8B5E0 /* Vector9.png in Resources */,
+				1E5C0EC920C6913900F8B5E0 /* Reader-Button-N@3x.png in Resources */,
+				1E5C103720C7A4DA00F8B5E0 /* TeachersBook.png in Resources */,
+				1E5C104020C7A4DA00F8B5E0 /* StudentMessage.png in Resources */,
+				1E5C0FE520C6926B00F8B5E0 /* gray.png in Resources */,
+				1E5C0ED520C6913900F8B5E0 /* history.jpg in Resources */,
+				1E5C0F3F20C691C900F8B5E0 /* approved@2x.png in Resources */,
+				1E5C0E6F20C690CE00F8B5E0 /* AddressIcon.png in Resources */,
+				1E5C0F4620C691C900F8B5E0 /* submitted-gray.png in Resources */,
+				1E5C0EDF20C6913900F8B5E0 /* Reader-Mark-N.png in Resources */,
+				1E5C103120C7A4DA00F8B5E0 /* TeachersMessages.png in Resources */,
+				1E5C0EC820C6913900F8B5E0 /* Reader-Email@2x.png in Resources */,
+				1E5C0FD620C6926B00F8B5E0 /* Vector7.png in Resources */,
+				1E5C0F3A20C691C900F8B5E0 /* redo-Gray.png in Resources */,
+				1E5C0FCF20C6926B00F8B5E0 /* sq.png in Resources */,
+				1E5C105920C7A80B00F8B5E0 /* alertBG2.png in Resources */,
+				1E5C0F9320C6924800F8B5E0 /* green-write.png in Resources */,
+				1E5C0F9620C6924800F8B5E0 /* view-edit.png in Resources */,
+				1E5C0E1120C663B800F8B5E0 /* Main.storyboard in Resources */,
+				1E5C0ECF20C6913900F8B5E0 /* Reader-Button-H.png in Resources */,
+				1E5C0ED120C6913900F8B5E0 /* Reader-Button-N.png in Resources */,
+				1E5C0E6C20C690CE00F8B5E0 /* GirlIcon.png in Resources */,
+				1E5C0EDD20C6913900F8B5E0 /* computer.jpg in Resources */,
+				1E5C0FD720C6926B00F8B5E0 /* Vector6.png in Resources */,
+				1E5C0ECA20C6913900F8B5E0 /* Reader-Print.png in Resources */,
+				1E5C103C20C7A4DA00F8B5E0 /* TeacherTimeTable.png in Resources */,
+				1E5C0EE420C6913900F8B5E0 /* Reader-Export@2x.png in Resources */,
+				1E5C0F4820C691C900F8B5E0 /* submitted@2x.png in Resources */,
+				1E5C0F4320C691C900F8B5E0 /* approved-gray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5C0E1C20C663BA00F8B5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5C0E2720C663BA00F8B5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5C0E0220C663B800F8B5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5C14C320C7F93400F8B5E0 /* JSONHTTPClient.m in Sources */,
+				1E5C14E620C7F93400F8B5E0 /* ThumbsMainToolbar.m in Sources */,
+				1E5C14C120C7F93400F8B5E0 /* JSONModelClassProperty.m in Sources */,
+				1E5C14CD20C7F93400F8B5E0 /* DrawingView.m in Sources */,
+				1E5C14DB20C7F93400F8B5E0 /* PopoverController.m in Sources */,
+				1E5C14BE20C7F93400F8B5E0 /* JSONKeyMapper.m in Sources */,
+				1E5C14D820C7F93400F8B5E0 /* ThumbRequest.m in Sources */,
+				1E5C0F8C20C6924800F8B5E0 /* LUStudentOnlineExamViewController.m in Sources */,
+				1E5C14D920C7F93400F8B5E0 /* MainPagebar.m in Sources */,
+				1E5C0FCB20C6926B00F8B5E0 /* CGStretchView.m in Sources */,
+				1E5C0F1B20C691A200F8B5E0 /* LUNotesDrawingTool.m in Sources */,
+				1E5C0EFC20C6913900F8B5E0 /* ReaderConstants.m in Sources */,
+				1E5C14DD20C7F93400F8B5E0 /* DataManager.m in Sources */,
+				1E5C14E320C7F93400F8B5E0 /* ThumbCache.m in Sources */,
+				1E5C14C420C7F93400F8B5E0 /* JSONAPI.m in Sources */,
+				1E5C0E6720C690CE00F8B5E0 /* LUStudentProfileCollectionViewCell.m in Sources */,
+				1E5C0F8F20C6924800F8B5E0 /* LUFillInTheBlankViewController.m in Sources */,
+				1E5C0E0E20C663B800F8B5E0 /* LUStudentViewController.m in Sources */,
+				1E5C100120C6AD6200F8B5E0 /* LUStudentNotificationDetailViewController.m in Sources */,
+				1E5C14D520C7F93400F8B5E0 /* ThumbRender.m in Sources */,
+				1E5C0FED20C6936400F8B5E0 /* LUOperation.m in Sources */,
+				1E5C0FE020C6926B00F8B5E0 /* LUStudentMainDrawingViewController.m in Sources */,
+				1E5C14D220C7F93400F8B5E0 /* SourceColorView.m in Sources */,
+				1E5C0E1920C663BA00F8B5E0 /* main.m in Sources */,
+				1E5C105420C7A80B00F8B5E0 /* LUActivityIndicator.m in Sources */,
+				1E5C0F0A20C6917400F8B5E0 /* LUVideoPlayerViewController.m in Sources */,
+				1E5C0F1D20C691A200F8B5E0 /* LUWriteNotesViewController.m in Sources */,
+				1E5C14D420C7F93400F8B5E0 /* TouchView.m in Sources */,
+				1E5C0F1A20C691A200F8B5E0 /* LUNotesMainDataManager.m in Sources */,
+				1E5C14C020C7F93400F8B5E0 /* JSONModelError.m in Sources */,
+				1E5C14CE20C7F93400F8B5E0 /* CGPDFDocument.m in Sources */,
+				1E5C14E220C7F93400F8B5E0 /* ThumbsView.m in Sources */,
+				1E5C14C720C7F93400F8B5E0 /* UIXToolbarView.m in Sources */,
+				1E5C14DC20C7F93400F8B5E0 /* ThumbsViewController.m in Sources */,
+				1E5C14C820C7F93400F8B5E0 /* Constants.m in Sources */,
+				1E5C0FDE20C6926B00F8B5E0 /* LinkedListStack.m in Sources */,
+				1E5C0FDD20C6926B00F8B5E0 /* LUDrawingViewController.m in Sources */,
+				1E5C0F6320C6921900F8B5E0 /* LUTimeTableSampleCalendarEvent.m in Sources */,
+				1E5C0EFB20C6913900F8B5E0 /* ReaderThumbRequest.m in Sources */,
+				1E5C0F1F20C691A200F8B5E0 /* LUPageType.m in Sources */,
+				1E5C0F9120C6924800F8B5E0 /* LUExamDataManager.m in Sources */,
+				1E5C0FE220C6926B00F8B5E0 /* DTColorPickerImageView.m in Sources */,
+				1E5C0EF120C6913900F8B5E0 /* ReaderViewController.m in Sources */,
+				1E5C14D120C7F93400F8B5E0 /* ThumbQueue.m in Sources */,
+				1E5C0F8D20C6924800F8B5E0 /* LUOptionalQuestionsViewController.m in Sources */,
+				1E5C0F0720C6917400F8B5E0 /* LUStudentResourceLibraryViewController.m in Sources */,
+				1E5C0EEC20C6913900F8B5E0 /* ReaderThumbQueue.m in Sources */,
+				1E5C14BF20C7F93400F8B5E0 /* JSONModel.m in Sources */,
+				1E5C0E6620C690CE00F8B5E0 /* LUStudentProfileSubjectTableCell.m in Sources */,
+				1E5C0EF320C6913900F8B5E0 /* ReaderThumbView.m in Sources */,
+				1E5C101320C7A15600F8B5E0 /* LUShelfContainerCellView.m in Sources */,
+				1E5C14E120C7F93400F8B5E0 /* ThumbView.m in Sources */,
+				1E5C0F6120C6921900F8B5E0 /* LUTimeTableCalendarEventCell.m in Sources */,
+				1E5C14DA20C7F93400F8B5E0 /* PopoverView.m in Sources */,
+				1E5C0EF520C6913900F8B5E0 /* ReaderDocument.m in Sources */,
+				1E5C0EF920C6913900F8B5E0 /* ReaderThumbsView.m in Sources */,
+				1E5C0FE920C6926B00F8B5E0 /* DrawingDataManager.m in Sources */,
+				1E5C14DE20C7F93400F8B5E0 /* DrawToolbar.m in Sources */,
+				1E5C101520C7A15600F8B5E0 /* LUShelfCollectionViewCell.m in Sources */,
+				1E5C0F6520C6921900F8B5E0 /* LUTodayTimeTableViewController.m in Sources */,
+				1E5C0E6820C690CE00F8B5E0 /* LUStudentProfileViewController.m in Sources */,
+				1E5C0EC720C6913900F8B5E0 /* YRCoverFlowLayout.m in Sources */,
+				1E5C0F8A20C6924800F8B5E0 /* LUMatchTheFollowingViewController.m in Sources */,
+				1E5C14D320C7F93400F8B5E0 /* ContentPage.m in Sources */,
+				1E5C0F6820C6921900F8B5E0 /* LUTimeTableWeekCalendarLayout.m in Sources */,
+				1E5C14D720C7F93400F8B5E0 /* ContentTile.m in Sources */,
+				1E5C14CB20C7F93400F8B5E0 /* Document.m in Sources */,
+				1E5C101720C7A15600F8B5E0 /* LUShelfCellTableViewCell.m in Sources */,
+				1E5C0F6620C6921900F8B5E0 /* LUTimeTableDetailViewController.m in Sources */,
+				1E5C0FE120C6926B00F8B5E0 /* UIImage+ColorPicker.m in Sources */,
+				1E5C0EFA20C6913900F8B5E0 /* ThumbsViewController.m in Sources */,
+				1E5C14DF20C7F93400F8B5E0 /* PropertyController.m in Sources */,
+				1E5C14CF20C7F93400F8B5E0 /* Annotation.m in Sources */,
+				1E5C0EFE20C6913900F8B5E0 /* ReaderMainPagebar.m in Sources */,
+				1E5C0F6420C6921900F8B5E0 /* LUStudentTimeTableViewController.m in Sources */,
+				1E5C105E20C7A8C500F8B5E0 /* LUReachability.m in Sources */,
+				1E5C14CC20C7F93400F8B5E0 /* ThumbFetch.m in Sources */,
+				1E5C0F9820C6924800F8B5E0 /* LUOptionalQuestionDataManager.m in Sources */,
+				1E5C0EF720C6913900F8B5E0 /* ReaderDocumentOutline.m in Sources */,
+				1E5C14D020C7F93400F8B5E0 /* DocumentOutline.m in Sources */,
+				1E5C0EEE20C6913900F8B5E0 /* ReaderThumbRender.m in Sources */,
+				1E5C0EFD20C6913900F8B5E0 /* ThumbsMainToolbar.m in Sources */,
+				1E5C0FFF20C6AD6200F8B5E0 /* LUStudentNotificationDetailCell.m in Sources */,
+				1E5C0FDF20C6926B00F8B5E0 /* UIImage+FloodFill.m in Sources */,
+				1E5C0F8E20C6924800F8B5E0 /* LUMatchQuestionCell.m in Sources */,
+				1E5C14C520C7F93400F8B5E0 /* JSONModel+networking.m in Sources */,
+				1E5C14CA20C7F93400F8B5E0 /* ContentView.m in Sources */,
+				1E5C104620C7A7AD00F8B5E0 /* LUUtilities.m in Sources */,
+				1E5C0FE820C6926B00F8B5E0 /* LURulerView.m in Sources */,
+				1E5C101920C7A15600F8B5E0 /* LUShelfListViewController.m in Sources */,
+				1E5C14E520C7F93400F8B5E0 /* DrawingTools.m in Sources */,
+				1E5C0F4D20C691C900F8B5E0 /* LUAssignmentSubmitCell.m in Sources */,
+				1E5C0FE420C6926B00F8B5E0 /* NLImageCropperView.m in Sources */,
+				1E5C0F8920C6924800F8B5E0 /* LUOnlineExamDateFormatter.m in Sources */,
+				1E5C0F4B20C691C900F8B5E0 /* LUAssignmentCell.m in Sources */,
+				1E5C0EF820C6913900F8B5E0 /* ReaderThumbCache.m in Sources */,
+				1E5C0FFD20C6AD6200F8B5E0 /* LUStudentNotificationViewController.m in Sources */,
+				1E5C0F6920C6921900F8B5E0 /* LUHeaderView.m in Sources */,
+				1E5C0E0B20C663B800F8B5E0 /* LUStudentAppDelegate.m in Sources */,
+				1E5C0FF320C6945E00F8B5E0 /* LUConstants.m in Sources */,
+				1E5C14C920C7F93400F8B5E0 /* MainToolbar.m in Sources */,
+				1E5C0EE620C6913900F8B5E0 /* LUStudentTextBookModuleViewController.m in Sources */,
+				1E5C0F8B20C6924800F8B5E0 /* LUOnlineExamQuesionsController.m in Sources */,
+				1E5C0FFE20C6AD6200F8B5E0 /* LUStudentNotificationAddViewController.m in Sources */,
+				1E5C14D620C7F93400F8B5E0 /* ViewController.m in Sources */,
+				1E5C14BD20C7F93400F8B5E0 /* JSONValueTransformer.m in Sources */,
+				1E5C0EE720C6913900F8B5E0 /* LUCoverFlowLayout.m in Sources */,
+				1E5C0EF420C6913900F8B5E0 /* ReaderMainToolbar.m in Sources */,
+				1E5C0EEA20C6913900F8B5E0 /* ReaderContentTile.m in Sources */,
+				1E5C14E420C7F93400F8B5E0 /* Model.xcdatamodeld in Sources */,
+				1E5C0F1C20C691A200F8B5E0 /* LUNotesDrawingView.m in Sources */,
+				1E5C0EF020C6913900F8B5E0 /* ReaderContentView.m in Sources */,
+				1E5C0FE620C6926B00F8B5E0 /* NLCropViewLayer.m in Sources */,
+				1E5C0EED20C6913900F8B5E0 /* ReaderContentPage.m in Sources */,
+				1E5C0F6720C6921900F8B5E0 /* LUTimeTableCalendarDataSource.m in Sources */,
+				1E5C0EEF20C6913900F8B5E0 /* CGPDFDocument.m in Sources */,
+				1E5C0EF220C6913900F8B5E0 /* ReaderThumbFetch.m in Sources */,
+				1E5C0FDC20C6926B00F8B5E0 /* LUDrawingCell.m in Sources */,
+				1E5C0EE920C6913900F8B5E0 /* LUStudentTextBookViewController.m in Sources */,
+				1E5C105820C7A80B00F8B5E0 /* LUAlertPopup.m in Sources */,
+				1E5C0F0920C6917400F8B5E0 /* YTPlayerView.m in Sources */,
+				1E5C14E020C7F93400F8B5E0 /* File.m in Sources */,
+				1E5C0F4C20C691C900F8B5E0 /* LUStudentAssignmentViewController.m in Sources */,
+				1E5C0EEB20C6913900F8B5E0 /* UIXToolbarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5C0E1A20C663BA00F8B5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5C0E2320C663BA00F8B5E0 /* LUStudentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5C0E2520C663BA00F8B5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5C0E2E20C663BA00F8B5E0 /* LUStudentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5C0E2020C663BA00F8B5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5C0E0520C663B800F8B5E0 /* LUStudent */;
+			targetProxy = 1E5C0E1F20C663BA00F8B5E0 /* PBXContainerItemProxy */;
+		};
+		1E5C0E2B20C663BA00F8B5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5C0E0520C663B800F8B5E0 /* LUStudent */;
+			targetProxy = 1E5C0E2A20C663BA00F8B5E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E5C0E0F20C663B800F8B5E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5C0E1020C663B800F8B5E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E5C0E1420C663BA00F8B5E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5C0E1520C663BA00F8B5E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E5C0E3020C663BA00F8B5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E5C0E3120C663BA00F8B5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5C0E3320C663BA00F8B5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SUSTU4J6W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LUStudent/LUFrameworks",
+				);
+				INFOPLIST_FILE = LUStudent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LUStudent/LUFrameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LUStudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E5C0E3420C663BA00F8B5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SUSTU4J6W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LUStudent/LUFrameworks",
+				);
+				INFOPLIST_FILE = LUStudent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LUStudent/LUFrameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LUStudent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E5C0E3620C663BA00F8B5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SUSTU4J6W;
+				INFOPLIST_FILE = LUStudentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LUStudentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LUStudent.app/LUStudent";
+			};
+			name = Debug;
+		};
+		1E5C0E3720C663BA00F8B5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SUSTU4J6W;
+				INFOPLIST_FILE = LUStudentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LUStudentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LUStudent.app/LUStudent";
+			};
+			name = Release;
+		};
+		1E5C0E3920C663BA00F8B5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SUSTU4J6W;
+				INFOPLIST_FILE = LUStudentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LUStudentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LUStudent;
+			};
+			name = Debug;
+		};
+		1E5C0E3A20C663BA00F8B5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SUSTU4J6W;
+				INFOPLIST_FILE = LUStudentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LUStudentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LUStudent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5C0E0120C663B800F8B5E0 /* Build configuration list for PBXProject "LUStudent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5C0E3020C663BA00F8B5E0 /* Debug */,
+				1E5C0E3120C663BA00F8B5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5C0E3220C663BA00F8B5E0 /* Build configuration list for PBXNativeTarget "LUStudent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5C0E3320C663BA00F8B5E0 /* Debug */,
+				1E5C0E3420C663BA00F8B5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5C0E3520C663BA00F8B5E0 /* Build configuration list for PBXNativeTarget "LUStudentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5C0E3620C663BA00F8B5E0 /* Debug */,
+				1E5C0E3720C663BA00F8B5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5C0E3820C663BA00F8B5E0 /* Build configuration list for PBXNativeTarget "LUStudentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5C0E3920C663BA00F8B5E0 /* Debug */,
+				1E5C0E3A20C663BA00F8B5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E5C14B420C7F93300F8B5E0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E5C14B520C7F93300F8B5E0 /* LazyPDFModel.xcdatamodel */,
+			);
+			currentVersion = 1E5C14B520C7F93300F8B5E0 /* LazyPDFModel.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E5C0DFE20C663B800F8B5E0 /* Project object */;
+}
